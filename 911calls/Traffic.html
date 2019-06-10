@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f9c1ac48c75c4c3cab554f2bb448eeee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f9c1ac48c75c4c3cab554f2bb448eeee" ></div>
+        
+</body>
+<script>    
+    
+            var map_f9c1ac48c75c4c3cab554f2bb448eeee = L.map(
+                "map_f9c1ac48c75c4c3cab554f2bb448eeee",
+                {
+                    center: [40.14889393385645, -75.29523353252088],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_15d37fb10f7a43c282af9ab81d2fe82a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var marker_4045dbd4832b475fbf9a91a205d48465 = L.marker(
+                [40.2319898, -75.2518915],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8cd19bbbba4b4006a3bfc03aa32d225d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4045dbd4832b475fbf9a91a205d48465.setIcon(icon_8cd19bbbba4b4006a3bfc03aa32d225d);
+        
+    
+        var popup_e97bdb47deeb4272a440600f97ebefc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a47c001ba3074854a0581024cea49cfd = $(`<div id="html_a47c001ba3074854a0581024cea49cfd" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_e97bdb47deeb4272a440600f97ebefc1.setContent(html_a47c001ba3074854a0581024cea49cfd);
+        
+
+        marker_4045dbd4832b475fbf9a91a205d48465.bindPopup(popup_e97bdb47deeb4272a440600f97ebefc1)
+        ;
+
+        
+    
+    
+            var marker_281d044a9e6f4fe2a52cc6b820671b92 = L.marker(
+                [40.0841613, -75.3083857],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7397f2eca1c541fba0f48d8024e24edb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_281d044a9e6f4fe2a52cc6b820671b92.setIcon(icon_7397f2eca1c541fba0f48d8024e24edb);
+        
+    
+        var popup_56614830864b40288d826abe76d387f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a126b66ab24e8b8cf92af7392b9be3 = $(`<div id="html_27a126b66ab24e8b8cf92af7392b9be3" style="width: 100.0%; height: 100.0%;">CITY =&gt; PLYMOUTH Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_56614830864b40288d826abe76d387f8.setContent(html_27a126b66ab24e8b8cf92af7392b9be3);
+        
+
+        marker_281d044a9e6f4fe2a52cc6b820671b92.bindPopup(popup_56614830864b40288d826abe76d387f8)
+        ;
+
+        
+    
+    
+            var marker_7558c67ed6d04467a82d12ad95879169 = L.marker(
+                [40.174131200000005, -75.0984907],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_fe2c5bfa32f14faca18558cb2ea2357e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7558c67ed6d04467a82d12ad95879169.setIcon(icon_fe2c5bfa32f14faca18558cb2ea2357e);
+        
+    
+        var popup_90e4aaa87f834046b741b16ac9b3967a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12e7e48ca0af43a0b6f4b037f7d2fc39 = $(`<div id="html_12e7e48ca0af43a0b6f4b037f7d2fc39" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MORELAND Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_90e4aaa87f834046b741b16ac9b3967a.setContent(html_12e7e48ca0af43a0b6f4b037f7d2fc39);
+        
+
+        marker_7558c67ed6d04467a82d12ad95879169.bindPopup(popup_90e4aaa87f834046b741b16ac9b3967a)
+        ;
+
+        
+    
+    
+            var marker_d25d8dc44e2246f1a029988a2ced4788 = L.marker(
+                [40.062974, -75.135914],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_526726198cef4f8d8ab6a5abbabf83d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d25d8dc44e2246f1a029988a2ced4788.setIcon(icon_526726198cef4f8d8ab6a5abbabf83d8);
+        
+    
+        var popup_7e918d1a30654853a0b016043b270a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7318620177546a5926ddbb26a4f6fcb = $(`<div id="html_a7318620177546a5926ddbb26a4f6fcb" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_7e918d1a30654853a0b016043b270a2b.setContent(html_a7318620177546a5926ddbb26a4f6fcb);
+        
+
+        marker_d25d8dc44e2246f1a029988a2ced4788.bindPopup(popup_7e918d1a30654853a0b016043b270a2b)
+        ;
+
+        
+    
+    
+            var marker_b91860bfd8754886abdbe211a7835ece = L.marker(
+                [40.0972222, -75.3761952],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_596352d34ed042318de99aaf32ca2638 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b91860bfd8754886abdbe211a7835ece.setIcon(icon_596352d34ed042318de99aaf32ca2638);
+        
+    
+        var popup_e7114ea961114d98852c3357fe186e3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f7efafa3ba345a588cb4b20ab6a69c4 = $(`<div id="html_0f7efafa3ba345a588cb4b20ab6a69c4" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_e7114ea961114d98852c3357fe186e3c.setContent(html_0f7efafa3ba345a588cb4b20ab6a69c4);
+        
+
+        marker_b91860bfd8754886abdbe211a7835ece.bindPopup(popup_e7114ea961114d98852c3357fe186e3c)
+        ;
+
+        
+    
+    
+            var marker_82865f1bc31d4bad95aa5ce1897dcf5d = L.marker(
+                [40.2237777, -75.2353993],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_256c9bd00e9c47f1a7896279dcaba82c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_82865f1bc31d4bad95aa5ce1897dcf5d.setIcon(icon_256c9bd00e9c47f1a7896279dcaba82c);
+        
+    
+        var popup_f9868c6f4e324303ac9a840a0c3a7484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a59d28ee36f14a10a9e1fc3dbbdaf2f7 = $(`<div id="html_a59d28ee36f14a10a9e1fc3dbbdaf2f7" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_f9868c6f4e324303ac9a840a0c3a7484.setContent(html_a59d28ee36f14a10a9e1fc3dbbdaf2f7);
+        
+
+        marker_82865f1bc31d4bad95aa5ce1897dcf5d.bindPopup(popup_f9868c6f4e324303ac9a840a0c3a7484)
+        ;
+
+        
+    
+    
+            var marker_83a739679bc141e3a262db5c0cb54e9e = L.marker(
+                [40.209336900000004, -75.1352655],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_384af4b483cb4a9e824b1900634d5d1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_83a739679bc141e3a262db5c0cb54e9e.setIcon(icon_384af4b483cb4a9e824b1900634d5d1a);
+        
+    
+        var popup_b248435f066e44079d8c3ecbec357c33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_721549d1d53b4c6fad62f46b8b21c089 = $(`<div id="html_721549d1d53b4c6fad62f46b8b21c089" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_b248435f066e44079d8c3ecbec357c33.setContent(html_721549d1d53b4c6fad62f46b8b21c089);
+        
+
+        marker_83a739679bc141e3a262db5c0cb54e9e.bindPopup(popup_b248435f066e44079d8c3ecbec357c33)
+        ;
+
+        
+    
+    
+            var marker_b8ed18d5ce13486d8bf2b75541ca56e0 = L.marker(
+                [40.114239000000005, -75.33850799999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_70cc6844d8b042a3966056b5cf504146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b8ed18d5ce13486d8bf2b75541ca56e0.setIcon(icon_70cc6844d8b042a3966056b5cf504146);
+        
+    
+        var popup_bccd55bf0d714872b20a69187604824e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9953b05e8734da2ad0ca44621ca807d = $(`<div id="html_f9953b05e8734da2ad0ca44621ca807d" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_bccd55bf0d714872b20a69187604824e.setContent(html_f9953b05e8734da2ad0ca44621ca807d);
+        
+
+        marker_b8ed18d5ce13486d8bf2b75541ca56e0.bindPopup(popup_bccd55bf0d714872b20a69187604824e)
+        ;
+
+        
+    
+    
+            var marker_a5d8c4c27be24c56ad9ce2255e23d7c0 = L.marker(
+                [40.1179476, -75.20984759999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_73dcb763232c4204a3385fbae2a5c3b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a5d8c4c27be24c56ad9ce2255e23d7c0.setIcon(icon_73dcb763232c4204a3385fbae2a5c3b0);
+        
+    
+        var popup_d66d792b6b3740629c55d2d92b9cfc08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1f29ef266cf4a9f9d43f1db77f90592 = $(`<div id="html_f1f29ef266cf4a9f9d43f1db77f90592" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_d66d792b6b3740629c55d2d92b9cfc08.setContent(html_f1f29ef266cf4a9f9d43f1db77f90592);
+        
+
+        marker_a5d8c4c27be24c56ad9ce2255e23d7c0.bindPopup(popup_d66d792b6b3740629c55d2d92b9cfc08)
+        ;
+
+        
+    
+    
+            var marker_293ece97204b468b90656597f505bd2f = L.marker(
+                [40.143325700000005, -75.42281899999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_eb7cc058fff14c9899f9c3c15a05cbff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_293ece97204b468b90656597f505bd2f.setIcon(icon_eb7cc058fff14c9899f9c3c15a05cbff);
+        
+    
+        var popup_ac8c508385dc4497bee69a02e5104756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50bd5ac11aa24787bfa1109dd027130b = $(`<div id="html_50bd5ac11aa24787bfa1109dd027130b" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER PROVIDENCE Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_ac8c508385dc4497bee69a02e5104756.setContent(html_50bd5ac11aa24787bfa1109dd027130b);
+        
+
+        marker_293ece97204b468b90656597f505bd2f.bindPopup(popup_ac8c508385dc4497bee69a02e5104756)
+        ;
+
+        
+    
+    
+            var marker_b93314aae215495f93ce63304277be7f = L.marker(
+                [40.1532684, -75.18955759999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_bbad936ae42541f699045179ecb4287d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b93314aae215495f93ce63304277be7f.setIcon(icon_bbad936ae42541f699045179ecb4287d);
+        
+    
+        var popup_3dfb1852d4334dd9957761be4a932f65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38bc33feb3b649409cc142c55d73d45c = $(`<div id="html_38bc33feb3b649409cc142c55d73d45c" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER DUBLIN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_3dfb1852d4334dd9957761be4a932f65.setContent(html_38bc33feb3b649409cc142c55d73d45c);
+        
+
+        marker_b93314aae215495f93ce63304277be7f.bindPopup(popup_3dfb1852d4334dd9957761be4a932f65)
+        ;
+
+        
+    
+    
+            var marker_8fa1a63d3c014ae89bd8309b084d9eac = L.marker(
+                [40.0972222, -75.3761952],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7d0be7e606ea4b248a0fa93bdc2af744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8fa1a63d3c014ae89bd8309b084d9eac.setIcon(icon_7d0be7e606ea4b248a0fa93bdc2af744);
+        
+    
+        var popup_39d32dcd4dc447b780bd0c677637b43e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d5b460e5b8748de96a982a2c3728e0c = $(`<div id="html_7d5b460e5b8748de96a982a2c3728e0c" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_39d32dcd4dc447b780bd0c677637b43e.setContent(html_7d5b460e5b8748de96a982a2c3728e0c);
+        
+
+        marker_8fa1a63d3c014ae89bd8309b084d9eac.bindPopup(popup_39d32dcd4dc447b780bd0c677637b43e)
+        ;
+
+        
+    
+    
+            var marker_b155920ecb514ac590de716f61f99c54 = L.marker(
+                [40.209336900000004, -75.1352655],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_2fd516ba434f4abf9621a8f57614d452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b155920ecb514ac590de716f61f99c54.setIcon(icon_2fd516ba434f4abf9621a8f57614d452);
+        
+    
+        var popup_c603f2c94ea246efa3fe20248f9ae0e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d40c8d35363468eb7832a67336af5d0 = $(`<div id="html_4d40c8d35363468eb7832a67336af5d0" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_c603f2c94ea246efa3fe20248f9ae0e3.setContent(html_4d40c8d35363468eb7832a67336af5d0);
+        
+
+        marker_b155920ecb514ac590de716f61f99c54.bindPopup(popup_c603f2c94ea246efa3fe20248f9ae0e3)
+        ;
+
+        
+    
+    
+            var marker_94cbf679b38347829fffbb105ac0efa9 = L.marker(
+                [40.0972222, -75.3761952],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_851eb57527324c77a7bea0da1a313d4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_94cbf679b38347829fffbb105ac0efa9.setIcon(icon_851eb57527324c77a7bea0da1a313d4c);
+        
+    
+        var popup_529ca5122be6442d8f218aae5a8a0aea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a49678ff724af88ea896a60b6b25ee = $(`<div id="html_94a49678ff724af88ea896a60b6b25ee" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_529ca5122be6442d8f218aae5a8a0aea.setContent(html_94a49678ff724af88ea896a60b6b25ee);
+        
+
+        marker_94cbf679b38347829fffbb105ac0efa9.bindPopup(popup_529ca5122be6442d8f218aae5a8a0aea)
+        ;
+
+        
+    
+    
+            var marker_eb4ce58822584f6fb7d2fe0f2f1b4b1e = L.marker(
+                [40.09936210000001, -75.1500348],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_d814eefbcfc3466f8f9ebe6ffa409ec2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_eb4ce58822584f6fb7d2fe0f2f1b4b1e.setIcon(icon_d814eefbcfc3466f8f9ebe6ffa409ec2);
+        
+    
+        var popup_507f50c42bd346359fc849ba74867f3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed383ed2ec644cf1a11504d54744fde7 = $(`<div id="html_ed383ed2ec644cf1a11504d54744fde7" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_507f50c42bd346359fc849ba74867f3b.setContent(html_ed383ed2ec644cf1a11504d54744fde7);
+        
+
+        marker_eb4ce58822584f6fb7d2fe0f2f1b4b1e.bindPopup(popup_507f50c42bd346359fc849ba74867f3b)
+        ;
+
+        
+    
+    
+            var marker_c0fa2da5486f44d0ac548c546566f53f = L.marker(
+                [40.2212266, -75.2887369],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_6e8fef26c89a413b822968500c4327bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c0fa2da5486f44d0ac548c546566f53f.setIcon(icon_6e8fef26c89a413b822968500c4327bf);
+        
+    
+        var popup_5099f238ad3c426b9362cfc1a4e61bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_287cee75e1374f37831c72732abc6c0a = $(`<div id="html_287cee75e1374f37831c72732abc6c0a" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER GWYNEDD Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_5099f238ad3c426b9362cfc1a4e61bd6.setContent(html_287cee75e1374f37831c72732abc6c0a);
+        
+
+        marker_c0fa2da5486f44d0ac548c546566f53f.bindPopup(popup_5099f238ad3c426b9362cfc1a4e61bd6)
+        ;
+
+        
+    
+    
+            var marker_5b2d2e6766fb476e86026daf53031eb9 = L.marker(
+                [40.0738642, -75.31679720000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_eda82f5f84ae48338537ca37f851ce46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5b2d2e6766fb476e86026daf53031eb9.setIcon(icon_eda82f5f84ae48338537ca37f851ce46);
+        
+    
+        var popup_4c680434ce8b461989416406a7892a2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_763b30f4fa9d4459953ba7be86ef0f7f = $(`<div id="html_763b30f4fa9d4459953ba7be86ef0f7f" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST CONSHOHOCKEN Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_4c680434ce8b461989416406a7892a2c.setContent(html_763b30f4fa9d4459953ba7be86ef0f7f);
+        
+
+        marker_5b2d2e6766fb476e86026daf53031eb9.bindPopup(popup_4c680434ce8b461989416406a7892a2c)
+        ;
+
+        
+    
+    
+            var marker_9331552cee274d9ab7dda04550d246c5 = L.marker(
+                [40.161731599999996, -75.1510554],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8265d58431db412ea0ea2d070092af4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9331552cee274d9ab7dda04550d246c5.setIcon(icon_8265d58431db412ea0ea2d070092af4f);
+        
+    
+        var popup_6b41059eb758470f9f7f3ba5da888338 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1675ed811d64464b482cadad237efec = $(`<div id="html_a1675ed811d64464b482cadad237efec" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_6b41059eb758470f9f7f3ba5da888338.setContent(html_a1675ed811d64464b482cadad237efec);
+        
+
+        marker_9331552cee274d9ab7dda04550d246c5.bindPopup(popup_6b41059eb758470f9f7f3ba5da888338)
+        ;
+
+        
+    
+    
+            var marker_ebcaf035b6494d2999c76fab2401aabc = L.marker(
+                [40.0655304, -75.3078284],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_f1b950596d844c52b9999b0dbb53f14a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ebcaf035b6494d2999c76fab2401aabc.setIcon(icon_f1b950596d844c52b9999b0dbb53f14a);
+        
+    
+        var popup_f76673474f6d44d282446e4787c97757 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f4cfb956ca4aa3831f437aa7929b99 = $(`<div id="html_39f4cfb956ca4aa3831f437aa7929b99" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST CONSHOHOCKEN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_f76673474f6d44d282446e4787c97757.setContent(html_39f4cfb956ca4aa3831f437aa7929b99);
+        
+
+        marker_ebcaf035b6494d2999c76fab2401aabc.bindPopup(popup_f76673474f6d44d282446e4787c97757)
+        ;
+
+        
+    
+    
+            var marker_9e057a6a661f4776b9a0f93921b8151a = L.marker(
+                [40.091055, -75.38436479999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_3465cced5c1b4e4591d35973d85818c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9e057a6a661f4776b9a0f93921b8151a.setIcon(icon_3465cced5c1b4e4591d35973d85818c4);
+        
+    
+        var popup_deb83a3aff394d3485f18a56be676753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e4564612f3419983d991b17ee7ce8b = $(`<div id="html_17e4564612f3419983d991b17ee7ce8b" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_deb83a3aff394d3485f18a56be676753.setContent(html_17e4564612f3419983d991b17ee7ce8b);
+        
+
+        marker_9e057a6a661f4776b9a0f93921b8151a.bindPopup(popup_deb83a3aff394d3485f18a56be676753)
+        ;
+
+        
+    
+    
+            var marker_06a0be0686dd42d9a88e0d9d48dc3781 = L.marker(
+                [40.1257391, -75.339822],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_95711b11324246c6b9374ec55123a6fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_06a0be0686dd42d9a88e0d9d48dc3781.setIcon(icon_95711b11324246c6b9374ec55123a6fc);
+        
+    
+        var popup_86e6205eeda044259b13319ba08804fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8535b97435524748bba2817bbb8f054f = $(`<div id="html_8535b97435524748bba2817bbb8f054f" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_86e6205eeda044259b13319ba08804fb.setContent(html_8535b97435524748bba2817bbb8f054f);
+        
+
+        marker_06a0be0686dd42d9a88e0d9d48dc3781.bindPopup(popup_86e6205eeda044259b13319ba08804fb)
+        ;
+
+        
+    
+    
+            var marker_3d52d2888328431a9650a253af181109 = L.marker(
+                [40.2249227, -75.5280446],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_f50c928b6cf74dca8936f915656649ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3d52d2888328431a9650a253af181109.setIcon(icon_f50c928b6cf74dca8936f915656649ab);
+        
+    
+        var popup_ec20aefbe9ca492388987060ed52a2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13cbb0851514aaeb7e9c1639887adee = $(`<div id="html_d13cbb0851514aaeb7e9c1639887adee" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_ec20aefbe9ca492388987060ed52a2d1.setContent(html_d13cbb0851514aaeb7e9c1639887adee);
+        
+
+        marker_3d52d2888328431a9650a253af181109.bindPopup(popup_ec20aefbe9ca492388987060ed52a2d1)
+        ;
+
+        
+    
+    
+            var marker_32cc2a35853743d9a26106856f59c932 = L.marker(
+                [40.2309343, -75.5221245],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_650fb7046383458094a5e5a7ef52af27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_32cc2a35853743d9a26106856f59c932.setIcon(icon_650fb7046383458094a5e5a7ef52af27);
+        
+    
+        var popup_083b6ea8366f4c13b50bbeed775181da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a2f0badf2a4994b885762ece29770c = $(`<div id="html_55a2f0badf2a4994b885762ece29770c" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_083b6ea8366f4c13b50bbeed775181da.setContent(html_55a2f0badf2a4994b885762ece29770c);
+        
+
+        marker_32cc2a35853743d9a26106856f59c932.bindPopup(popup_083b6ea8366f4c13b50bbeed775181da)
+        ;
+
+        
+    
+    
+            var marker_42e56d73d1e64ee3927585cd8867868b = L.marker(
+                [40.2313745, -75.2797803],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_198ad140203f49fbb7a1af47e0e636ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42e56d73d1e64ee3927585cd8867868b.setIcon(icon_198ad140203f49fbb7a1af47e0e636ee);
+        
+    
+        var popup_80e30fb6fed24167bcd6b462d60e69a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5b9615529dc47bd90430eaa4d845a96 = $(`<div id="html_c5b9615529dc47bd90430eaa4d845a96" style="width: 100.0%; height: 100.0%;">CITY =&gt; LANSDALE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_80e30fb6fed24167bcd6b462d60e69a4.setContent(html_c5b9615529dc47bd90430eaa4d845a96);
+        
+
+        marker_42e56d73d1e64ee3927585cd8867868b.bindPopup(popup_80e30fb6fed24167bcd6b462d60e69a4)
+        ;
+
+        
+    
+    
+            var marker_a663c88cfbf64a4fa417c929e742a680 = L.marker(
+                [40.2432612, -75.2960797],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_05ff23d78770419a88f7e65e3f65f5a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a663c88cfbf64a4fa417c929e742a680.setIcon(icon_05ff23d78770419a88f7e65e3f65f5a6);
+        
+    
+        var popup_81da2bcbbbeb40b0be589599cae2d5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ab3a78ec9d468d81a7b3c1fe62b447 = $(`<div id="html_99ab3a78ec9d468d81a7b3c1fe62b447" style="width: 100.0%; height: 100.0%;">CITY =&gt; LANSDALE Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_81da2bcbbbeb40b0be589599cae2d5c4.setContent(html_99ab3a78ec9d468d81a7b3c1fe62b447);
+        
+
+        marker_a663c88cfbf64a4fa417c929e742a680.bindPopup(popup_81da2bcbbbeb40b0be589599cae2d5c4)
+        ;
+
+        
+    
+    
+            var marker_92f7bfbd7b6f46ea9139b2889a46cf92 = L.marker(
+                [40.0818005, -75.2531616],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_4a931849e4f244b582adb163c02b88b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_92f7bfbd7b6f46ea9139b2889a46cf92.setIcon(icon_4a931849e4f244b582adb163c02b88b0);
+        
+    
+        var popup_8e86062fef4c426791bc0fd7c06a684d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84ee8fb437bf4b78902e779ddcac28a5 = $(`<div id="html_84ee8fb437bf4b78902e779ddcac28a5" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_8e86062fef4c426791bc0fd7c06a684d.setContent(html_84ee8fb437bf4b78902e779ddcac28a5);
+        
+
+        marker_92f7bfbd7b6f46ea9139b2889a46cf92.bindPopup(popup_8e86062fef4c426791bc0fd7c06a684d)
+        ;
+
+        
+    
+    
+            var marker_b3f220d45b0b40bf9711aad75564a2b4 = L.marker(
+                [40.0203725, -75.3092584],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_d4318823c1434d669d8eeef5d8071a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b3f220d45b0b40bf9711aad75564a2b4.setIcon(icon_d4318823c1434d669d8eeef5d8071a2c);
+        
+    
+        var popup_7584d61688384ed282c3cde6d49cae1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d7bea8ed4c446a1a37352d349ee96db = $(`<div id="html_3d7bea8ed4c446a1a37352d349ee96db" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_7584d61688384ed282c3cde6d49cae1b.setContent(html_3d7bea8ed4c446a1a37352d349ee96db);
+        
+
+        marker_b3f220d45b0b40bf9711aad75564a2b4.bindPopup(popup_7584d61688384ed282c3cde6d49cae1b)
+        ;
+
+        
+    
+    
+            var marker_8e267d1a5cc543359e892252c5d5bb04 = L.marker(
+                [40.2306331, -75.2785377],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_160b61d95d9e4b0bb4312c96186c4009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8e267d1a5cc543359e892252c5d5bb04.setIcon(icon_160b61d95d9e4b0bb4312c96186c4009);
+        
+    
+        var popup_1dd20464ec644795937522767e0bd647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902274c625e24b539be758810961af23 = $(`<div id="html_902274c625e24b539be758810961af23" style="width: 100.0%; height: 100.0%;">CITY =&gt; LANSDALE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_1dd20464ec644795937522767e0bd647.setContent(html_902274c625e24b539be758810961af23);
+        
+
+        marker_8e267d1a5cc543359e892252c5d5bb04.bindPopup(popup_1dd20464ec644795937522767e0bd647)
+        ;
+
+        
+    
+    
+            var marker_0a7fb32de84e43fc98bb24c51901df4f = L.marker(
+                [40.2048367, -75.22282109999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7ff92bbc72f94f9fb707c450df683b55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0a7fb32de84e43fc98bb24c51901df4f.setIcon(icon_7ff92bbc72f94f9fb707c450df683b55);
+        
+    
+        var popup_f19f2a6c72d6480da1b98ad9c7bb90f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ae150a862f047098ac8f9f6dd5abf5e = $(`<div id="html_9ae150a862f047098ac8f9f6dd5abf5e" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_f19f2a6c72d6480da1b98ad9c7bb90f1.setContent(html_9ae150a862f047098ac8f9f6dd5abf5e);
+        
+
+        marker_0a7fb32de84e43fc98bb24c51901df4f.bindPopup(popup_f19f2a6c72d6480da1b98ad9c7bb90f1)
+        ;
+
+        
+    
+    
+            var marker_52b250f17c1c4dd6a48635d850173743 = L.marker(
+                [40.2442013, -75.582403],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_072725af75cf491abe86822091bff538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_52b250f17c1c4dd6a48635d850173743.setIcon(icon_072725af75cf491abe86822091bff538);
+        
+    
+        var popup_89868d464cbb43e79d0ef6ec912597b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10576fbae4c348c596c4cbcea8faf21b = $(`<div id="html_10576fbae4c348c596c4cbcea8faf21b" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER POTTSGROVE Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_89868d464cbb43e79d0ef6ec912597b9.setContent(html_10576fbae4c348c596c4cbcea8faf21b);
+        
+
+        marker_52b250f17c1c4dd6a48635d850173743.bindPopup(popup_89868d464cbb43e79d0ef6ec912597b9)
+        ;
+
+        
+    
+    
+            var marker_b6609a6eab0a43af8bec46e273072cf9 = L.marker(
+                [40.003954799999995, -75.22070090000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_88e4402bbcca4deeae6e427f8d8baa80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6609a6eab0a43af8bec46e273072cf9.setIcon(icon_88e4402bbcca4deeae6e427f8d8baa80);
+        
+    
+        var popup_99b29da8144348adbae2745ef56e078d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09940046093e4f2abe018f977a2e61aa = $(`<div id="html_09940046093e4f2abe018f977a2e61aa" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_99b29da8144348adbae2745ef56e078d.setContent(html_09940046093e4f2abe018f977a2e61aa);
+        
+
+        marker_b6609a6eab0a43af8bec46e273072cf9.bindPopup(popup_99b29da8144348adbae2745ef56e078d)
+        ;
+
+        
+    
+    
+            var marker_5126ee145e674453989706bc48714cec = L.marker(
+                [40.250015600000005, -75.5921595],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_55bd4ce99f1f4bf8b73d585b73557c0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5126ee145e674453989706bc48714cec.setIcon(icon_55bd4ce99f1f4bf8b73d585b73557c0c);
+        
+    
+        var popup_4f6bd0bd147e4e239ec990dece4f3747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9a2ccdd94b454f9c52d6398747925f = $(`<div id="html_cd9a2ccdd94b454f9c52d6398747925f" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER POTTSGROVE Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_4f6bd0bd147e4e239ec990dece4f3747.setContent(html_cd9a2ccdd94b454f9c52d6398747925f);
+        
+
+        marker_5126ee145e674453989706bc48714cec.bindPopup(popup_4f6bd0bd147e4e239ec990dece4f3747)
+        ;
+
+        
+    
+    
+            var marker_5f5e14766cb043d290a56570dfc33e8e = L.marker(
+                [40.230284000000005, -75.3540007],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_6a22c8d1e0ad445ba3c435cb5665b89e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5f5e14766cb043d290a56570dfc33e8e.setIcon(icon_6a22c8d1e0ad445ba3c435cb5665b89e);
+        
+    
+        var popup_48ea58b9387f48d7a6da9a6f2d0ce679 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d49f94175aa24a8bb4a9101a68c0d128 = $(`<div id="html_d49f94175aa24a8bb4a9101a68c0d128" style="width: 100.0%; height: 100.0%;">CITY =&gt; TOWAMENCIN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_48ea58b9387f48d7a6da9a6f2d0ce679.setContent(html_d49f94175aa24a8bb4a9101a68c0d128);
+        
+
+        marker_5f5e14766cb043d290a56570dfc33e8e.bindPopup(popup_48ea58b9387f48d7a6da9a6f2d0ce679)
+        ;
+
+        
+    
+    
+            var marker_cbfb5e9c19fc456ab57e314a9f1ce2a4 = L.marker(
+                [40.234417799999996, -75.3513217],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7e4222ee62c04bdc83b26b9b1cc47dae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cbfb5e9c19fc456ab57e314a9f1ce2a4.setIcon(icon_7e4222ee62c04bdc83b26b9b1cc47dae);
+        
+    
+        var popup_631ffbe17ba14fbb9ed2e7bc072f6541 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_735298c392704bbbb1b1b1c102238e11 = $(`<div id="html_735298c392704bbbb1b1b1c102238e11" style="width: 100.0%; height: 100.0%;">CITY =&gt; TOWAMENCIN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_631ffbe17ba14fbb9ed2e7bc072f6541.setContent(html_735298c392704bbbb1b1b1c102238e11);
+        
+
+        marker_cbfb5e9c19fc456ab57e314a9f1ce2a4.bindPopup(popup_631ffbe17ba14fbb9ed2e7bc072f6541)
+        ;
+
+        
+    
+    
+            var marker_5888c645568042be9894f4ea90d6190e = L.marker(
+                [40.0830785, -75.1011171],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7b4257e2ce22473ab3e282e43a03b46c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5888c645568042be9894f4ea90d6190e.setIcon(icon_7b4257e2ce22473ab3e282e43a03b46c);
+        
+    
+        var popup_e88ad3a1c72a431a9a603f183b4fabb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e85ccaffdbf84c25a42ba90d164a933b = $(`<div id="html_e85ccaffdbf84c25a42ba90d164a933b" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_e88ad3a1c72a431a9a603f183b4fabb0.setContent(html_e85ccaffdbf84c25a42ba90d164a933b);
+        
+
+        marker_5888c645568042be9894f4ea90d6190e.bindPopup(popup_e88ad3a1c72a431a9a603f183b4fabb0)
+        ;
+
+        
+    
+    
+            var marker_a1a40c27520649a5954a1dc8018c2cce = L.marker(
+                [40.27630429999999, -75.56502359999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_41f747478d634ca5ae417006ba3ff844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a1a40c27520649a5954a1dc8018c2cce.setIcon(icon_41f747478d634ca5ae417006ba3ff844);
+        
+    
+        var popup_9fe3b1f4e2f04a288c16019ded3f35c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cca6419f4dc64c7f9e2d35bd800a298c = $(`<div id="html_cca6419f4dc64c7f9e2d35bd800a298c" style="width: 100.0%; height: 100.0%;">CITY =&gt; NEW HANOVER Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_9fe3b1f4e2f04a288c16019ded3f35c8.setContent(html_cca6419f4dc64c7f9e2d35bd800a298c);
+        
+
+        marker_a1a40c27520649a5954a1dc8018c2cce.bindPopup(popup_9fe3b1f4e2f04a288c16019ded3f35c8)
+        ;
+
+        
+    
+    
+            var marker_bd94cf6d7fea49d8a59390ea42e31e2f = L.marker(
+                [40.0953195, -75.1934818],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_7a1bf1a6379741afbf201d7f45293b63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bd94cf6d7fea49d8a59390ea42e31e2f.setIcon(icon_7a1bf1a6379741afbf201d7f45293b63);
+        
+    
+        var popup_39e8cad3182440ba885a9bd019337ebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0d1b3912bd84179b5cfc8a386c8a0c8 = $(`<div id="html_e0d1b3912bd84179b5cfc8a386c8a0c8" style="width: 100.0%; height: 100.0%;">CITY =&gt; SPRINGFIELD Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_39e8cad3182440ba885a9bd019337ebf.setContent(html_e0d1b3912bd84179b5cfc8a386c8a0c8);
+        
+
+        marker_bd94cf6d7fea49d8a59390ea42e31e2f.bindPopup(popup_39e8cad3182440ba885a9bd019337ebf)
+        ;
+
+        
+    
+    
+            var marker_44d93e34e35f43278093c0c210db8eaf = L.marker(
+                [40.060047999999995, -75.097217],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_0252bb4629df453d8a6dea3002de6c7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_44d93e34e35f43278093c0c210db8eaf.setIcon(icon_0252bb4629df453d8a6dea3002de6c7b);
+        
+    
+        var popup_2dbf1fd7ba5b4b3ea8cda3462eae4cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79a2eba230c541a0ac1950819e4b7055 = $(`<div id="html_79a2eba230c541a0ac1950819e4b7055" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_2dbf1fd7ba5b4b3ea8cda3462eae4cb6.setContent(html_79a2eba230c541a0ac1950819e4b7055);
+        
+
+        marker_44d93e34e35f43278093c0c210db8eaf.bindPopup(popup_2dbf1fd7ba5b4b3ea8cda3462eae4cb6)
+        ;
+
+        
+    
+    
+            var marker_fd9f4bb7e4664ca3984f9daabf8ac742 = L.marker(
+                [40.0177675, -75.23005429999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_2b8bf1d844174634bace01238f9f6d29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fd9f4bb7e4664ca3984f9daabf8ac742.setIcon(icon_2b8bf1d844174634bace01238f9f6d29);
+        
+    
+        var popup_70cb3d814ae74661b1e341df734934d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c700d7f3d514ff9a699ddba4c3cc1b2 = $(`<div id="html_4c700d7f3d514ff9a699ddba4c3cc1b2" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_70cb3d814ae74661b1e341df734934d8.setContent(html_4c700d7f3d514ff9a699ddba4c3cc1b2);
+        
+
+        marker_fd9f4bb7e4664ca3984f9daabf8ac742.bindPopup(popup_70cb3d814ae74661b1e341df734934d8)
+        ;
+
+        
+    
+    
+            var marker_992170205c994f19b29d81b0fee1b878 = L.marker(
+                [40.2451166, -75.6460071],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_96ebcfc2d3df4a878969f3466e24f3b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_992170205c994f19b29d81b0fee1b878.setIcon(icon_96ebcfc2d3df4a878969f3466e24f3b9);
+        
+    
+        var popup_028575c93eda4f479619d7dd3bbd8e16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87219ad11b43449a9678559282eea38c = $(`<div id="html_87219ad11b43449a9678559282eea38c" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_028575c93eda4f479619d7dd3bbd8e16.setContent(html_87219ad11b43449a9678559282eea38c);
+        
+
+        marker_992170205c994f19b29d81b0fee1b878.bindPopup(popup_028575c93eda4f479619d7dd3bbd8e16)
+        ;
+
+        
+    
+    
+            var marker_3fea8c603ce94266a01d667c8ba3dee6 = L.marker(
+                [40.150710700000005, -75.0552739],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_804193b3e0814606ba7fa46f09dc32b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fea8c603ce94266a01d667c8ba3dee6.setIcon(icon_804193b3e0814606ba7fa46f09dc32b2);
+        
+    
+        var popup_7c9e49fb2e63432895e0a88dd2c80fde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4615c6bdb464077b055f874b413db26 = $(`<div id="html_d4615c6bdb464077b055f874b413db26" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MORELAND Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_7c9e49fb2e63432895e0a88dd2c80fde.setContent(html_d4615c6bdb464077b055f874b413db26);
+        
+
+        marker_3fea8c603ce94266a01d667c8ba3dee6.bindPopup(popup_7c9e49fb2e63432895e0a88dd2c80fde)
+        ;
+
+        
+    
+    
+            var marker_35c83f055a4348e0867db922943ba24c = L.marker(
+                [40.0025642, -75.2236498],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_6077299bd874426d888bb25b9435526a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_35c83f055a4348e0867db922943ba24c.setIcon(icon_6077299bd874426d888bb25b9435526a);
+        
+    
+        var popup_ec8f59be77574a4e889173813a5d6e00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61801c130a6e43d5acb89ed46d1d6cc5 = $(`<div id="html_61801c130a6e43d5acb89ed46d1d6cc5" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_ec8f59be77574a4e889173813a5d6e00.setContent(html_61801c130a6e43d5acb89ed46d1d6cc5);
+        
+
+        marker_35c83f055a4348e0867db922943ba24c.bindPopup(popup_ec8f59be77574a4e889173813a5d6e00)
+        ;
+
+        
+    
+    
+            var marker_1e78acd6c6d646148531fa6d4e3c60ce = L.marker(
+                [40.1653934, -75.2829046],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_380d84207c604e32921e4a7c5c1e4e0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1e78acd6c6d646148531fa6d4e3c60ce.setIcon(icon_380d84207c604e32921e4a7c5c1e4e0e);
+        
+    
+        var popup_d465c4f0f2454fae9c3317ce670d99b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dbcd9de9dfa4fc9af8347263df803c5 = $(`<div id="html_6dbcd9de9dfa4fc9af8347263df803c5" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_d465c4f0f2454fae9c3317ce670d99b2.setContent(html_6dbcd9de9dfa4fc9af8347263df803c5);
+        
+
+        marker_1e78acd6c6d646148531fa6d4e3c60ce.bindPopup(popup_d465c4f0f2454fae9c3317ce670d99b2)
+        ;
+
+        
+    
+    
+            var marker_4efb797b05904ae7870a9bd5a5bca765 = L.marker(
+                [40.1489915, -75.26051600000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_0d48c053feb54acd82c7521cc18a8857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4efb797b05904ae7870a9bd5a5bca765.setIcon(icon_0d48c053feb54acd82c7521cc18a8857);
+        
+    
+        var popup_472bca22303c4b95bcc7b472b34a447a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d276b3a85a3441e39dfdce5a4c81be63 = $(`<div id="html_d276b3a85a3441e39dfdce5a4c81be63" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_472bca22303c4b95bcc7b472b34a447a.setContent(html_d276b3a85a3441e39dfdce5a4c81be63);
+        
+
+        marker_4efb797b05904ae7870a9bd5a5bca765.bindPopup(popup_472bca22303c4b95bcc7b472b34a447a)
+        ;
+
+        
+    
+    
+            var marker_ec7aba273be84fcc9afd0dc51dc1f696 = L.marker(
+                [40.4014255, -75.4939718],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_02ab7c946e814815b682df25ddb57512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ec7aba273be84fcc9afd0dc51dc1f696.setIcon(icon_02ab7c946e814815b682df25ddb57512);
+        
+    
+        var popup_011dd69849df4525a2400bbb3ae88a16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa7f649ae3d4e94be8bf21501cb8776 = $(`<div id="html_7fa7f649ae3d4e94be8bf21501cb8776" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER HANOVER Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_011dd69849df4525a2400bbb3ae88a16.setContent(html_7fa7f649ae3d4e94be8bf21501cb8776);
+        
+
+        marker_ec7aba273be84fcc9afd0dc51dc1f696.bindPopup(popup_011dd69849df4525a2400bbb3ae88a16)
+        ;
+
+        
+    
+    
+            var marker_264adcaa5f0648ff88b91e541b02895a = L.marker(
+                [40.155827, -75.3652085],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_9de2dd66ce604b77ad038e53badd541e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_264adcaa5f0648ff88b91e541b02895a.setIcon(icon_9de2dd66ce604b77ad038e53badd541e);
+        
+    
+        var popup_81f3890a021c4286b55cf14566422cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_729c34aeabea431bac7f15df2bcc8a4c = $(`<div id="html_729c34aeabea431bac7f15df2bcc8a4c" style="width: 100.0%; height: 100.0%;">CITY =&gt; EAST NORRITON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_81f3890a021c4286b55cf14566422cb7.setContent(html_729c34aeabea431bac7f15df2bcc8a4c);
+        
+
+        marker_264adcaa5f0648ff88b91e541b02895a.bindPopup(popup_81f3890a021c4286b55cf14566422cb7)
+        ;
+
+        
+    
+    
+            var marker_4e3178a09b8b4e4d995f1a4bae95cabf = L.marker(
+                [40.27630429999999, -75.56502359999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_5eeab5ebe0764220a2d9b06b214f9b70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4e3178a09b8b4e4d995f1a4bae95cabf.setIcon(icon_5eeab5ebe0764220a2d9b06b214f9b70);
+        
+    
+        var popup_b30901373aed487cac1258cf1e1a27c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_323f1fb700c64701ae25815b844f1981 = $(`<div id="html_323f1fb700c64701ae25815b844f1981" style="width: 100.0%; height: 100.0%;">CITY =&gt; NEW HANOVER Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_b30901373aed487cac1258cf1e1a27c9.setContent(html_323f1fb700c64701ae25815b844f1981);
+        
+
+        marker_4e3178a09b8b4e4d995f1a4bae95cabf.bindPopup(popup_b30901373aed487cac1258cf1e1a27c9)
+        ;
+
+        
+    
+    
+            var marker_df52a4cd337948298aa11370acef553e = L.marker(
+                [40.2431339, -75.6464342],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_06eec54f4afe42189cfb76d72127a131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_df52a4cd337948298aa11370acef553e.setIcon(icon_06eec54f4afe42189cfb76d72127a131);
+        
+    
+        var popup_3ac82f8ef0b84b52a91fe5baad61f30e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3682495f5194245b2842a71247d9464 = $(`<div id="html_c3682495f5194245b2842a71247d9464" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_3ac82f8ef0b84b52a91fe5baad61f30e.setContent(html_c3682495f5194245b2842a71247d9464);
+        
+
+        marker_df52a4cd337948298aa11370acef553e.bindPopup(popup_3ac82f8ef0b84b52a91fe5baad61f30e)
+        ;
+
+        
+    
+    
+            var marker_ef6846f9b0314b61a8fe2904d670b941 = L.marker(
+                [40.0249667, -75.2829046],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_efb48b30d9cb486193214a6427bb1284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ef6846f9b0314b61a8fe2904d670b941.setIcon(icon_efb48b30d9cb486193214a6427bb1284);
+        
+    
+        var popup_71c7ea89c5f544688d92f1a25a83a610 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc603a9fe65c4d29b6eed6e511c6e3f1 = $(`<div id="html_bc603a9fe65c4d29b6eed6e511c6e3f1" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_71c7ea89c5f544688d92f1a25a83a610.setContent(html_bc603a9fe65c4d29b6eed6e511c6e3f1);
+        
+
+        marker_ef6846f9b0314b61a8fe2904d670b941.bindPopup(popup_71c7ea89c5f544688d92f1a25a83a610)
+        ;
+
+        
+    
+    
+            var marker_4fc9bf6acff44d8eb9bf61cbf048e72a = L.marker(
+                [40.1497607, -75.4785811],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_15bbc7d6eb594bfaabb45999b9e16c9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4fc9bf6acff44d8eb9bf61cbf048e72a.setIcon(icon_15bbc7d6eb594bfaabb45999b9e16c9c);
+        
+    
+        var popup_b0ea68bd989645bab9b937fff7d2fa6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6405990134bb4c8f9203094831d87a64 = $(`<div id="html_6405990134bb4c8f9203094831d87a64" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_b0ea68bd989645bab9b937fff7d2fa6d.setContent(html_6405990134bb4c8f9203094831d87a64);
+        
+
+        marker_4fc9bf6acff44d8eb9bf61cbf048e72a.bindPopup(popup_b0ea68bd989645bab9b937fff7d2fa6d)
+        ;
+
+        
+    
+    
+            var marker_076423648c874033832e3c6072a107f0 = L.marker(
+                [40.0134468, -75.2361093],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_fc77e77ea7d14befa26ed880018f8bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_076423648c874033832e3c6072a107f0.setIcon(icon_fc77e77ea7d14befa26ed880018f8bd9);
+        
+    
+        var popup_56f227625c894c36812c40537e4574a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_447e35c532934a9b86dd7d222f9b95df = $(`<div id="html_447e35c532934a9b86dd7d222f9b95df" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_56f227625c894c36812c40537e4574a8.setContent(html_447e35c532934a9b86dd7d222f9b95df);
+        
+
+        marker_076423648c874033832e3c6072a107f0.bindPopup(popup_56f227625c894c36812c40537e4574a8)
+        ;
+
+        
+    
+    
+            var marker_96d0e69e82db4202939562c7517682dd = L.marker(
+                [40.079443, -75.33183299999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8cfaa5800a5d44e08c7affc682a715f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_96d0e69e82db4202939562c7517682dd.setIcon(icon_8cfaa5800a5d44e08c7affc682a715f0);
+        
+    
+        var popup_199ff64a0e914a08907ae33154a6c4e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_301cbe06df71403d94610284ec841c79 = $(`<div id="html_301cbe06df71403d94610284ec841c79" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_199ff64a0e914a08907ae33154a6c4e2.setContent(html_301cbe06df71403d94610284ec841c79);
+        
+
+        marker_96d0e69e82db4202939562c7517682dd.bindPopup(popup_199ff64a0e914a08907ae33154a6c4e2)
+        ;
+
+        
+    
+    
+            var marker_d4eeb5f0354c4bdb94d401d7b845fe82 = L.marker(
+                [40.131381899999994, -75.3547959],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_2442a908656d4f9a854f6f4555140ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d4eeb5f0354c4bdb94d401d7b845fe82.setIcon(icon_2442a908656d4f9a854f6f4555140ba1);
+        
+    
+        var popup_ea2756f020b74af59f420ed284fc536d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0f8ed78514a4a6b95e1c5a13ba12969 = $(`<div id="html_f0f8ed78514a4a6b95e1c5a13ba12969" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST NORRITON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_ea2756f020b74af59f420ed284fc536d.setContent(html_f0f8ed78514a4a6b95e1c5a13ba12969);
+        
+
+        marker_d4eeb5f0354c4bdb94d401d7b845fe82.bindPopup(popup_ea2756f020b74af59f420ed284fc536d)
+        ;
+
+        
+    
+    
+            var marker_da427caa836a412fb8e3d652e0ddfe24 = L.marker(
+                [40.1211757, -75.1333613],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_64cadfa29a8f4c358af86dd8564a0dc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_da427caa836a412fb8e3d652e0ddfe24.setIcon(icon_64cadfa29a8f4c358af86dd8564a0dc2);
+        
+    
+        var popup_dc8b948992b34a2597dfd15c42cc65aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d637b018884f6182f31151acdf97a7 = $(`<div id="html_b7d637b018884f6182f31151acdf97a7" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_dc8b948992b34a2597dfd15c42cc65aa.setContent(html_b7d637b018884f6182f31151acdf97a7);
+        
+
+        marker_da427caa836a412fb8e3d652e0ddfe24.bindPopup(popup_dc8b948992b34a2597dfd15c42cc65aa)
+        ;
+
+        
+    
+    
+            var marker_0268001bbd4e499bb7d4f7e233a6bf2c = L.marker(
+                [40.2414952, -75.28378620000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_352acd0be9e9438a993464dac987e8c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0268001bbd4e499bb7d4f7e233a6bf2c.setIcon(icon_352acd0be9e9438a993464dac987e8c0);
+        
+    
+        var popup_8dd68df597d344be8e581021f3b4395a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a1fe04319bb4ebf9bd64e1a3c55ec73 = $(`<div id="html_9a1fe04319bb4ebf9bd64e1a3c55ec73" style="width: 100.0%; height: 100.0%;">CITY =&gt; LANSDALE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_8dd68df597d344be8e581021f3b4395a.setContent(html_9a1fe04319bb4ebf9bd64e1a3c55ec73);
+        
+
+        marker_0268001bbd4e499bb7d4f7e233a6bf2c.bindPopup(popup_8dd68df597d344be8e581021f3b4395a)
+        ;
+
+        
+    
+    
+            var marker_dae50fa1d0314e51b0194debb20cd5a1 = L.marker(
+                [40.0823492, -75.1613157],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_b18ed6574b86434fbb13fc35f7b9bbe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dae50fa1d0314e51b0194debb20cd5a1.setIcon(icon_b18ed6574b86434fbb13fc35f7b9bbe5);
+        
+    
+        var popup_0165688720b54c8aa822aa2f76b49426 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed1bc437b90e495a88f2a4cc667c2cc8 = $(`<div id="html_ed1bc437b90e495a88f2a4cc667c2cc8" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_0165688720b54c8aa822aa2f76b49426.setContent(html_ed1bc437b90e495a88f2a4cc667c2cc8);
+        
+
+        marker_dae50fa1d0314e51b0194debb20cd5a1.bindPopup(popup_0165688720b54c8aa822aa2f76b49426)
+        ;
+
+        
+    
+    
+            var marker_c2aa05f7d68f4de9ad43f0924f42a3eb = L.marker(
+                [40.1848404, -75.12051240000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_72155431fa1e4077b05e60338bc0fe33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c2aa05f7d68f4de9ad43f0924f42a3eb.setIcon(icon_72155431fa1e4077b05e60338bc0fe33);
+        
+    
+        var popup_62065e998d644bb998fa9cf459b138f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35c6259a571e48d2bb60de33c369dc75 = $(`<div id="html_35c6259a571e48d2bb60de33c369dc75" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_62065e998d644bb998fa9cf459b138f6.setContent(html_35c6259a571e48d2bb60de33c369dc75);
+        
+
+        marker_c2aa05f7d68f4de9ad43f0924f42a3eb.bindPopup(popup_62065e998d644bb998fa9cf459b138f6)
+        ;
+
+        
+    
+    
+            var marker_1b955a536a7a425bb50f90183d1fc681 = L.marker(
+                [40.129538000000004, -75.3246363],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8fa42c9039444b589c6216b85f66629f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1b955a536a7a425bb50f90183d1fc681.setIcon(icon_8fa42c9039444b589c6216b85f66629f);
+        
+    
+        var popup_0f9506e0f1ec46da8697bc94e86d2de7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2835ed41f04f168586ab51aa184f98 = $(`<div id="html_2d2835ed41f04f168586ab51aa184f98" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_0f9506e0f1ec46da8697bc94e86d2de7.setContent(html_2d2835ed41f04f168586ab51aa184f98);
+        
+
+        marker_1b955a536a7a425bb50f90183d1fc681.bindPopup(popup_0f9506e0f1ec46da8697bc94e86d2de7)
+        ;
+
+        
+    
+    
+            var marker_e4de9c31606a4134a13c41ff2f54c3b2 = L.marker(
+                [40.1198332, -75.1253492],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_aa406e53f51c4dc3b7a60083bb8fd3ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e4de9c31606a4134a13c41ff2f54c3b2.setIcon(icon_aa406e53f51c4dc3b7a60083bb8fd3ee);
+        
+    
+        var popup_8843aee27cab4698ac13fd01464278c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_894265dee7a148a193c602df5dc491c0 = $(`<div id="html_894265dee7a148a193c602df5dc491c0" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_8843aee27cab4698ac13fd01464278c9.setContent(html_894265dee7a148a193c602df5dc491c0);
+        
+
+        marker_e4de9c31606a4134a13c41ff2f54c3b2.bindPopup(popup_8843aee27cab4698ac13fd01464278c9)
+        ;
+
+        
+    
+    
+            var marker_6764f548e2ee41cb8a611529113ef9b6 = L.marker(
+                [40.093140600000005, -75.36776440000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_83a68ea9081a41bfbb1408be9c8633eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6764f548e2ee41cb8a611529113ef9b6.setIcon(icon_83a68ea9081a41bfbb1408be9c8633eb);
+        
+    
+        var popup_f8100d62dcc64b9eae8fe9751f3cfb2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94106dcabc434f128bb101f3e6d8a266 = $(`<div id="html_94106dcabc434f128bb101f3e6d8a266" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_f8100d62dcc64b9eae8fe9751f3cfb2a.setContent(html_94106dcabc434f128bb101f3e6d8a266);
+        
+
+        marker_6764f548e2ee41cb8a611529113ef9b6.bindPopup(popup_f8100d62dcc64b9eae8fe9751f3cfb2a)
+        ;
+
+        
+    
+    
+            var marker_3f3d824a9797438cac2e9b6efb8ed15e = L.marker(
+                [40.108630100000006, -75.1231264],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_1bfcffe18dcb40e7ad9199bb82321050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3f3d824a9797438cac2e9b6efb8ed15e.setIcon(icon_1bfcffe18dcb40e7ad9199bb82321050);
+        
+    
+        var popup_cc7779886b3c4edaa08c4465df3d1bbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_440d07b6e08140d9984000010a32c609 = $(`<div id="html_440d07b6e08140d9984000010a32c609" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_cc7779886b3c4edaa08c4465df3d1bbe.setContent(html_440d07b6e08140d9984000010a32c609);
+        
+
+        marker_3f3d824a9797438cac2e9b6efb8ed15e.bindPopup(popup_cc7779886b3c4edaa08c4465df3d1bbe)
+        ;
+
+        
+    
+    
+            var marker_491b221dac3c44cbb31e500911a83389 = L.marker(
+                [40.2394356, -75.2362381],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_e0f8abccd796463cb49ad3fae04a5059 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_491b221dac3c44cbb31e500911a83389.setIcon(icon_e0f8abccd796463cb49ad3fae04a5059);
+        
+    
+        var popup_e087e5e236224dfca79689ed0381f590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8918fa7a716247a4bf4ce7ccab67ee86 = $(`<div id="html_8918fa7a716247a4bf4ce7ccab67ee86" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_e087e5e236224dfca79689ed0381f590.setContent(html_8918fa7a716247a4bf4ce7ccab67ee86);
+        
+
+        marker_491b221dac3c44cbb31e500911a83389.bindPopup(popup_e087e5e236224dfca79689ed0381f590)
+        ;
+
+        
+    
+    
+            var marker_780f0f551ea243d8b55d3804e1949a3a = L.marker(
+                [40.204159000000004, -75.1723943],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8263d3a393214acbb97aff8058fc883b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_780f0f551ea243d8b55d3804e1949a3a.setIcon(icon_8263d3a393214acbb97aff8058fc883b);
+        
+    
+        var popup_b14c6689b4c14ce7bd0ffdfaca100c44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08620de31eed469fb8e676b907e4cc88 = $(`<div id="html_08620de31eed469fb8e676b907e4cc88" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_b14c6689b4c14ce7bd0ffdfaca100c44.setContent(html_08620de31eed469fb8e676b907e4cc88);
+        
+
+        marker_780f0f551ea243d8b55d3804e1949a3a.bindPopup(popup_b14c6689b4c14ce7bd0ffdfaca100c44)
+        ;
+
+        
+    
+    
+            var marker_a0505e6d4299493abf590408fac9d4bc = L.marker(
+                [40.1545535, -75.22156509999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_a40d339c51ba4facb83300a097c874a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a0505e6d4299493abf590408fac9d4bc.setIcon(icon_a40d339c51ba4facb83300a097c874a5);
+        
+    
+        var popup_3d11258b8537462e9202d01005711c39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db1097c24921435b9df498f9825dc45a = $(`<div id="html_db1097c24921435b9df498f9825dc45a" style="width: 100.0%; height: 100.0%;">CITY =&gt; AMBLER Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_3d11258b8537462e9202d01005711c39.setContent(html_db1097c24921435b9df498f9825dc45a);
+        
+
+        marker_a0505e6d4299493abf590408fac9d4bc.bindPopup(popup_3d11258b8537462e9202d01005711c39)
+        ;
+
+        
+    
+    
+            var marker_042d4672acd24476b3800fdcb8a0d0bf = L.marker(
+                [40.1793752, -75.2362381],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_d928b75772ed4d63a96fe77cbea71f52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_042d4672acd24476b3800fdcb8a0d0bf.setIcon(icon_d928b75772ed4d63a96fe77cbea71f52);
+        
+    
+        var popup_4c25230539c440b692dee6b5b2dc5be7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62620d3e0c864eb2a717efa9fa0649e4 = $(`<div id="html_62620d3e0c864eb2a717efa9fa0649e4" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER GWYNEDD Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_4c25230539c440b692dee6b5b2dc5be7.setContent(html_62620d3e0c864eb2a717efa9fa0649e4);
+        
+
+        marker_042d4672acd24476b3800fdcb8a0d0bf.bindPopup(popup_4c25230539c440b692dee6b5b2dc5be7)
+        ;
+
+        
+    
+    
+            var marker_fbe9f72b560e487e9084f488af50b2f6 = L.marker(
+                [40.1793752, -75.2362381],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_e152c576f61f43edbc910ff1da69a6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fbe9f72b560e487e9084f488af50b2f6.setIcon(icon_e152c576f61f43edbc910ff1da69a6f9);
+        
+    
+        var popup_d17108bde42746f687ecaed1d4ca5b78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad3e8b27d63b42c4a4d61d52ab447e94 = $(`<div id="html_ad3e8b27d63b42c4a4d61d52ab447e94" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER GWYNEDD Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_d17108bde42746f687ecaed1d4ca5b78.setContent(html_ad3e8b27d63b42c4a4d61d52ab447e94);
+        
+
+        marker_fbe9f72b560e487e9084f488af50b2f6.bindPopup(popup_d17108bde42746f687ecaed1d4ca5b78)
+        ;
+
+        
+    
+    
+            var marker_490353456ba64be1b4ba4e0c60281f44 = L.marker(
+                [40.092353, -75.138325],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_79ec85fb01684a34a946590acd5ac132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_490353456ba64be1b4ba4e0c60281f44.setIcon(icon_79ec85fb01684a34a946590acd5ac132);
+        
+    
+        var popup_f18c31e4f6c6403d9da010606fa4ad61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3536803c0cc04e409853e4a444415119 = $(`<div id="html_3536803c0cc04e409853e4a444415119" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: DEBRIS/FLUIDS ON HIGHWAY -</div>`)[0];
+            popup_f18c31e4f6c6403d9da010606fa4ad61.setContent(html_3536803c0cc04e409853e4a444415119);
+        
+
+        marker_490353456ba64be1b4ba4e0c60281f44.bindPopup(popup_f18c31e4f6c6403d9da010606fa4ad61)
+        ;
+
+        
+    
+    
+            var marker_78d583480f56479a9e8b5cb0895a622b = L.marker(
+                [40.0902994, -75.1040868],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_638206e4f6484d089ac3c2093bc9441f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_78d583480f56479a9e8b5cb0895a622b.setIcon(icon_638206e4f6484d089ac3c2093bc9441f);
+        
+    
+        var popup_e80b01d4f76f48a1960996c1d3586bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a04789edc54cdf8060c6b569511bc1 = $(`<div id="html_10a04789edc54cdf8060c6b569511bc1" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_e80b01d4f76f48a1960996c1d3586bf4.setContent(html_10a04789edc54cdf8060c6b569511bc1);
+        
+
+        marker_78d583480f56479a9e8b5cb0895a622b.bindPopup(popup_e80b01d4f76f48a1960996c1d3586bf4)
+        ;
+
+        
+    
+    
+            var marker_7ef8c0f3048b46cf99171242f9575008 = L.marker(
+                [40.0933278, -75.2819813],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_426b6dfcd61c436bbb6e1abeffd02916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7ef8c0f3048b46cf99171242f9575008.setIcon(icon_426b6dfcd61c436bbb6e1abeffd02916);
+        
+    
+        var popup_d7c2c5960e5e48619edf31a431224ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb45c400a5d74a01a39fe5d2b2994049 = $(`<div id="html_fb45c400a5d74a01a39fe5d2b2994049" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_d7c2c5960e5e48619edf31a431224ac2.setContent(html_fb45c400a5d74a01a39fe5d2b2994049);
+        
+
+        marker_7ef8c0f3048b46cf99171242f9575008.bindPopup(popup_d7c2c5960e5e48619edf31a431224ac2)
+        ;
+
+        
+    
+    
+            var marker_0955eee0fffa49f2926cf9ab46a7c286 = L.marker(
+                [40.1258785, -75.08611090000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_b961313d688448b68908b9ec63759403 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0955eee0fffa49f2926cf9ab46a7c286.setIcon(icon_b961313d688448b68908b9ec63759403);
+        
+    
+        var popup_95b0420d61b04d7091a77c36b0b09ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f30a806b8934de78231978017be3b3a = $(`<div id="html_6f30a806b8934de78231978017be3b3a" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MORELAND Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_95b0420d61b04d7091a77c36b0b09ba5.setContent(html_6f30a806b8934de78231978017be3b3a);
+        
+
+        marker_0955eee0fffa49f2926cf9ab46a7c286.bindPopup(popup_95b0420d61b04d7091a77c36b0b09ba5)
+        ;
+
+        
+    
+    
+            var marker_052f32f8cc75406dbff1490e105373bf = L.marker(
+                [40.1723141, -75.4927278],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_218cedc0bff940358ed536e9e09a7858 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_052f32f8cc75406dbff1490e105373bf.setIcon(icon_218cedc0bff940358ed536e9e09a7858);
+        
+    
+        var popup_62901664fc98492bb8a3f719290e1201 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67daad007df142a6a7935b8f20984f31 = $(`<div id="html_67daad007df142a6a7935b8f20984f31" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_62901664fc98492bb8a3f719290e1201.setContent(html_67daad007df142a6a7935b8f20984f31);
+        
+
+        marker_052f32f8cc75406dbff1490e105373bf.bindPopup(popup_62901664fc98492bb8a3f719290e1201)
+        ;
+
+        
+    
+    
+            var marker_2c672ff66f544ad7a06d49e89e3a5246 = L.marker(
+                [40.176403799999996, -75.22502940000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_a51799c97fab4364858875b99ad6ecfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2c672ff66f544ad7a06d49e89e3a5246.setIcon(icon_a51799c97fab4364858875b99ad6ecfe);
+        
+    
+        var popup_c21caf90d3134dee95700b731f457ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_810b1c67ad634e3884d88b3ba71546eb = $(`<div id="html_810b1c67ad634e3884d88b3ba71546eb" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER GWYNEDD Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_c21caf90d3134dee95700b731f457ae4.setContent(html_810b1c67ad634e3884d88b3ba71546eb);
+        
+
+        marker_2c672ff66f544ad7a06d49e89e3a5246.bindPopup(popup_c21caf90d3134dee95700b731f457ae4)
+        ;
+
+        
+    
+    
+            var marker_8db9fb1f25754193ba66168a3dd3870a = L.marker(
+                [40.151779299999994, -75.0415703],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_9b1ed2da392e447bb76cf632536f3a4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8db9fb1f25754193ba66168a3dd3870a.setIcon(icon_9b1ed2da392e447bb76cf632536f3a4f);
+        
+    
+        var popup_6c897e1044ff4071b33c3ede1e9f1e1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65642ff747554bdf9ad126632608ec22 = $(`<div id="html_65642ff747554bdf9ad126632608ec22" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MORELAND Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_6c897e1044ff4071b33c3ede1e9f1e1e.setContent(html_65642ff747554bdf9ad126632608ec22);
+        
+
+        marker_8db9fb1f25754193ba66168a3dd3870a.bindPopup(popup_6c897e1044ff4071b33c3ede1e9f1e1e)
+        ;
+
+        
+    
+    
+            var marker_161b9d8d9ca54461a7c0bf0593b47cba = L.marker(
+                [40.1801046, -75.36252979999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8dfec058c0af4f2e8728b49d91dffb46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_161b9d8d9ca54461a7c0bf0593b47cba.setIcon(icon_8dfec058c0af4f2e8728b49d91dffb46);
+        
+    
+        var popup_d7ba4e063aa9440789a2c6d6eb866b2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32a2d5ebf27e40f780ca4df0e8b28008 = $(`<div id="html_32a2d5ebf27e40f780ca4df0e8b28008" style="width: 100.0%; height: 100.0%;">CITY =&gt; WORCESTER Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_d7ba4e063aa9440789a2c6d6eb866b2f.setContent(html_32a2d5ebf27e40f780ca4df0e8b28008);
+        
+
+        marker_161b9d8d9ca54461a7c0bf0593b47cba.bindPopup(popup_d7ba4e063aa9440789a2c6d6eb866b2f)
+        ;
+
+        
+    
+    
+            var marker_2b8be7cf8a9742c48d33eb835dc0f24b = L.marker(
+                [40.1198332, -75.1253492],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_991f58b0686841e5a21c11713093f029 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2b8be7cf8a9742c48d33eb835dc0f24b.setIcon(icon_991f58b0686841e5a21c11713093f029);
+        
+    
+        var popup_22a5fa268bf141878cfbea0cf9edb2ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2373e251e49a4393823512f9fb3f3d17 = $(`<div id="html_2373e251e49a4393823512f9fb3f3d17" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_22a5fa268bf141878cfbea0cf9edb2ec.setContent(html_2373e251e49a4393823512f9fb3f3d17);
+        
+
+        marker_2b8be7cf8a9742c48d33eb835dc0f24b.bindPopup(popup_22a5fa268bf141878cfbea0cf9edb2ec)
+        ;
+
+        
+    
+    
+            var marker_384965be443346448d069d9e192572f1 = L.marker(
+                [40.1784422, -75.1285061],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_c230054b7d984e40a84edcb39ce412c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_384965be443346448d069d9e192572f1.setIcon(icon_c230054b7d984e40a84edcb39ce412c1);
+        
+    
+        var popup_55ad504013934218ae3bf8d303f9d5cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f387cf3e47748f2bcb4768281c651c0 = $(`<div id="html_2f387cf3e47748f2bcb4768281c651c0" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_55ad504013934218ae3bf8d303f9d5cf.setContent(html_2f387cf3e47748f2bcb4768281c651c0);
+        
+
+        marker_384965be443346448d069d9e192572f1.bindPopup(popup_55ad504013934218ae3bf8d303f9d5cf)
+        ;
+
+        
+    
+    
+            var marker_d0a991ff7f5844ddba84b5549e5bfdf3 = L.marker(
+                [40.072731, -75.1559688],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_94ac9dccbbcf45b29734e61fae87c5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d0a991ff7f5844ddba84b5549e5bfdf3.setIcon(icon_94ac9dccbbcf45b29734e61fae87c5b4);
+        
+    
+        var popup_f1b6bf48e04044b9b70539196582b018 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9fbd04081af44798675a9c441bc2a61 = $(`<div id="html_d9fbd04081af44798675a9c441bc2a61" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_f1b6bf48e04044b9b70539196582b018.setContent(html_d9fbd04081af44798675a9c441bc2a61);
+        
+
+        marker_d0a991ff7f5844ddba84b5549e5bfdf3.bindPopup(popup_f1b6bf48e04044b9b70539196582b018)
+        ;
+
+        
+    
+    
+            var marker_3e04a74dd5124b2793657d54cf160ab9 = L.marker(
+                [40.2212266, -75.2887369],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_9b2fae345691436aa29472350c5d5370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3e04a74dd5124b2793657d54cf160ab9.setIcon(icon_9b2fae345691436aa29472350c5d5370);
+        
+    
+        var popup_9c89717449b746ad8f3765852eff7fc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f67000c0f4aa42098b0ffde9e07310ad = $(`<div id="html_f67000c0f4aa42098b0ffde9e07310ad" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER GWYNEDD Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_9c89717449b746ad8f3765852eff7fc1.setContent(html_f67000c0f4aa42098b0ffde9e07310ad);
+        
+
+        marker_3e04a74dd5124b2793657d54cf160ab9.bindPopup(popup_9c89717449b746ad8f3765852eff7fc1)
+        ;
+
+        
+    
+    
+            var marker_a28a817a852e4889b025d3f3ca6152d7 = L.marker(
+                [40.096173, -75.158023],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_df4cf69999424d8b91672998ac2bca07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a28a817a852e4889b025d3f3ca6152d7.setIcon(icon_df4cf69999424d8b91672998ac2bca07);
+        
+    
+        var popup_2373b8a820a14c37a250f8f8d5bff687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_173468b460054454bb561380b0ff66b7 = $(`<div id="html_173468b460054454bb561380b0ff66b7" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_2373b8a820a14c37a250f8f8d5bff687.setContent(html_173468b460054454bb561380b0ff66b7);
+        
+
+        marker_a28a817a852e4889b025d3f3ca6152d7.bindPopup(popup_2373b8a820a14c37a250f8f8d5bff687)
+        ;
+
+        
+    
+    
+            var marker_ee7e190c2b914225bcb7e9994f5bad36 = L.marker(
+                [40.179511600000005, -75.2777325],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_0a8b7f8ced1d480398da2aa8e99cbe88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ee7e190c2b914225bcb7e9994f5bad36.setIcon(icon_0a8b7f8ced1d480398da2aa8e99cbe88);
+        
+    
+        var popup_6b289b9ac7cd4de29dd0afd60218b86f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58d90d19d1e34e32a047b23605385272 = $(`<div id="html_58d90d19d1e34e32a047b23605385272" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_6b289b9ac7cd4de29dd0afd60218b86f.setContent(html_58d90d19d1e34e32a047b23605385272);
+        
+
+        marker_ee7e190c2b914225bcb7e9994f5bad36.bindPopup(popup_6b289b9ac7cd4de29dd0afd60218b86f)
+        ;
+
+        
+    
+    
+            var marker_fa684332bfa14c10a1a1a25f5d13b654 = L.marker(
+                [40.2413204, -75.2428276],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_40318b5831fc40ab9551bfb2250cbaf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fa684332bfa14c10a1a1a25f5d13b654.setIcon(icon_40318b5831fc40ab9551bfb2250cbaf5);
+        
+    
+        var popup_a4ca362e7290476a981870b704443970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c68cf76ec524220a25d8c3750e438d0 = $(`<div id="html_2c68cf76ec524220a25d8c3750e438d0" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_a4ca362e7290476a981870b704443970.setContent(html_2c68cf76ec524220a25d8c3750e438d0);
+        
+
+        marker_fa684332bfa14c10a1a1a25f5d13b654.bindPopup(popup_a4ca362e7290476a981870b704443970)
+        ;
+
+        
+    
+    
+            var marker_00bad8371ad54a4dab561321d5ffeb7b = L.marker(
+                [40.16173870000001, -75.3797797],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_fa33955f80c64d7dad3ca6277c3240df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_00bad8371ad54a4dab561321d5ffeb7b.setIcon(icon_fa33955f80c64d7dad3ca6277c3240df);
+        
+    
+        var popup_2945fccc7fcb488fa4939b93ce1dbbf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f22fc96d7514a82bc41366af8901d7f = $(`<div id="html_2f22fc96d7514a82bc41366af8901d7f" style="width: 100.0%; height: 100.0%;">CITY =&gt; WORCESTER Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_2945fccc7fcb488fa4939b93ce1dbbf9.setContent(html_2f22fc96d7514a82bc41366af8901d7f);
+        
+
+        marker_00bad8371ad54a4dab561321d5ffeb7b.bindPopup(popup_2945fccc7fcb488fa4939b93ce1dbbf9)
+        ;
+
+        
+    
+    
+            var marker_3be16f4a495c4501ba73913998fffa1d = L.marker(
+                [40.1414828, -75.117142],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_4a3b811e42164e4f9afc89180e2c452d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3be16f4a495c4501ba73913998fffa1d.setIcon(icon_4a3b811e42164e4f9afc89180e2c452d);
+        
+    
+        var popup_be465ec24abb45bfae0710c723ea6a9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcca04ad57bf4454b54beb9e360d9a71 = $(`<div id="html_bcca04ad57bf4454b54beb9e360d9a71" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_be465ec24abb45bfae0710c723ea6a9c.setContent(html_bcca04ad57bf4454b54beb9e360d9a71);
+        
+
+        marker_3be16f4a495c4501ba73913998fffa1d.bindPopup(popup_be465ec24abb45bfae0710c723ea6a9c)
+        ;
+
+        
+    
+    
+            var marker_c949000c629d455bad466519c949ade8 = L.marker(
+                [40.16173870000001, -75.3797797],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_01040136e0a443b9b150f98f07bbbaa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c949000c629d455bad466519c949ade8.setIcon(icon_01040136e0a443b9b150f98f07bbbaa5);
+        
+    
+        var popup_12e9bf31cb6a482f8af3e9a8e1d3da91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5b08123f27a4837ad68297fee89ad7b = $(`<div id="html_f5b08123f27a4837ad68297fee89ad7b" style="width: 100.0%; height: 100.0%;">CITY =&gt; WORCESTER Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_12e9bf31cb6a482f8af3e9a8e1d3da91.setContent(html_f5b08123f27a4837ad68297fee89ad7b);
+        
+
+        marker_c949000c629d455bad466519c949ade8.bindPopup(popup_12e9bf31cb6a482f8af3e9a8e1d3da91)
+        ;
+
+        
+    
+    
+            var marker_54b5bdf34f314548adaa76c9a315e559 = L.marker(
+                [40.16177329999999, -75.3798431],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_c36c146cfd014d31ab1e4d83f3bb1bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_54b5bdf34f314548adaa76c9a315e559.setIcon(icon_c36c146cfd014d31ab1e4d83f3bb1bbd);
+        
+    
+        var popup_d54203057cff46ac9e65ff7e06dbe620 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4238190357f4031ba16198927f841d9 = $(`<div id="html_b4238190357f4031ba16198927f841d9" style="width: 100.0%; height: 100.0%;">CITY =&gt; WORCESTER Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_d54203057cff46ac9e65ff7e06dbe620.setContent(html_b4238190357f4031ba16198927f841d9);
+        
+
+        marker_54b5bdf34f314548adaa76c9a315e559.bindPopup(popup_d54203057cff46ac9e65ff7e06dbe620)
+        ;
+
+        
+    
+    
+            var marker_04c1be6fd1f04b91bbbbc27cf62ecc86 = L.marker(
+                [40.1068386, -75.12380390000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_71a436bf115e43729a1e0cff0d0d681e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_04c1be6fd1f04b91bbbbc27cf62ecc86.setIcon(icon_71a436bf115e43729a1e0cff0d0d681e);
+        
+    
+        var popup_2c46a27c869345d7926ad533e50d423b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbb5d03fcda04fa7afbdb1414e48fec1 = $(`<div id="html_fbb5d03fcda04fa7afbdb1414e48fec1" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_2c46a27c869345d7926ad533e50d423b.setContent(html_fbb5d03fcda04fa7afbdb1414e48fec1);
+        
+
+        marker_04c1be6fd1f04b91bbbbc27cf62ecc86.bindPopup(popup_2c46a27c869345d7926ad533e50d423b)
+        ;
+
+        
+    
+    
+            var marker_4cd5e6698c23406e8066719a360ece27 = L.marker(
+                [40.119254600000005, -75.2362381],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_d3f02c281ea64061b5b66f475c9c23d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4cd5e6698c23406e8066719a360ece27.setIcon(icon_d3f02c281ea64061b5b66f475c9c23d4);
+        
+    
+        var popup_c79c3e4968d34f11ac42a8c6c989156f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66de4290de074256879c3afe44ce4619 = $(`<div id="html_66de4290de074256879c3afe44ce4619" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_c79c3e4968d34f11ac42a8c6c989156f.setContent(html_66de4290de074256879c3afe44ce4619);
+        
+
+        marker_4cd5e6698c23406e8066719a360ece27.bindPopup(popup_c79c3e4968d34f11ac42a8c6c989156f)
+        ;
+
+        
+    
+    
+            var marker_3a09de8b978247f4afb4a58542ec5077 = L.marker(
+                [40.1233907, -75.3369417],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_3e79b7174f804f1a833eddcb1126ace3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3a09de8b978247f4afb4a58542ec5077.setIcon(icon_3e79b7174f804f1a833eddcb1126ace3);
+        
+    
+        var popup_8a5a4de87ab7439aa44ec2e9cc223548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f1a8f4fdd584be4b5c21eb885e8dfa1 = $(`<div id="html_4f1a8f4fdd584be4b5c21eb885e8dfa1" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_8a5a4de87ab7439aa44ec2e9cc223548.setContent(html_4f1a8f4fdd584be4b5c21eb885e8dfa1);
+        
+
+        marker_3a09de8b978247f4afb4a58542ec5077.bindPopup(popup_8a5a4de87ab7439aa44ec2e9cc223548)
+        ;
+
+        
+    
+    
+            var marker_5b4e1e066acc4790a171204b03eb9c59 = L.marker(
+                [39.9975395, -75.2599846],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_c8dd4c675b294591ae024db35b02ce34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5b4e1e066acc4790a171204b03eb9c59.setIcon(icon_c8dd4c675b294591ae024db35b02ce34);
+        
+    
+        var popup_934b502a848446999b6bc4c8a52d325e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f84a0cc71b4f8c95d07f4a893c4927 = $(`<div id="html_15f84a0cc71b4f8c95d07f4a893c4927" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_934b502a848446999b6bc4c8a52d325e.setContent(html_15f84a0cc71b4f8c95d07f4a893c4927);
+        
+
+        marker_5b4e1e066acc4790a171204b03eb9c59.bindPopup(popup_934b502a848446999b6bc4c8a52d325e)
+        ;
+
+        
+    
+    
+            var marker_524035ccfa314e5db0a22d8ae43d8d8a = L.marker(
+                [40.2118999, -75.49483070000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_959790e4bd374d0aa21a2ad8e612e126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_524035ccfa314e5db0a22d8ae43d8d8a.setIcon(icon_959790e4bd374d0aa21a2ad8e612e126);
+        
+    
+        var popup_ef1aeb7594e7484aab4f6cb7053c30ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f84c90cbc25942b6b1d8fb9121901d21 = $(`<div id="html_f84c90cbc25942b6b1d8fb9121901d21" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_ef1aeb7594e7484aab4f6cb7053c30ba.setContent(html_f84c90cbc25942b6b1d8fb9121901d21);
+        
+
+        marker_524035ccfa314e5db0a22d8ae43d8d8a.bindPopup(popup_ef1aeb7594e7484aab4f6cb7053c30ba)
+        ;
+
+        
+    
+    
+            var marker_3564014be944403b91f702053616bbd0 = L.marker(
+                [40.166042299999994, -75.0867478],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_68cbab0519a84283b6ec3241ed4f9731 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3564014be944403b91f702053616bbd0.setIcon(icon_68cbab0519a84283b6ec3241ed4f9731);
+        
+    
+        var popup_d25a893743214a61afa327c392105c76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_010a0b83887a408384a9cb286d5c80e4 = $(`<div id="html_010a0b83887a408384a9cb286d5c80e4" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MORELAND Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_d25a893743214a61afa327c392105c76.setContent(html_010a0b83887a408384a9cb286d5c80e4);
+        
+
+        marker_3564014be944403b91f702053616bbd0.bindPopup(popup_d25a893743214a61afa327c392105c76)
+        ;
+
+        
+    
+    
+            var marker_2ff2bdfca01545c48d9aefe3950d12a5 = L.marker(
+                [40.2290075, -75.38785250000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_c57abe526f394fff9098eebc965d079d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2ff2bdfca01545c48d9aefe3950d12a5.setIcon(icon_c57abe526f394fff9098eebc965d079d);
+        
+    
+        var popup_43c546a781ad47138dc34eb380150ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e99a5f06ed94437cb403763a30e2ca72 = $(`<div id="html_e99a5f06ed94437cb403763a30e2ca72" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHESTER COUNTY Traffic: VEHICLE LEAKING FUEL -</div>`)[0];
+            popup_43c546a781ad47138dc34eb380150ad2.setContent(html_e99a5f06ed94437cb403763a30e2ca72);
+        
+
+        marker_2ff2bdfca01545c48d9aefe3950d12a5.bindPopup(popup_43c546a781ad47138dc34eb380150ad2)
+        ;
+
+        
+    
+    
+            var marker_64347d2359eb4e3db4abd6282997965b = L.marker(
+                [40.210283399999994, -75.56991540000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_4d48d29b52f7469c8b9fb7dc2bbe27ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_64347d2359eb4e3db4abd6282997965b.setIcon(icon_4d48d29b52f7469c8b9fb7dc2bbe27ed);
+        
+    
+        var popup_406aa228de774178b94c47c7b1c1f7bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef3c00f5ba3f4996b861d1adf8899f31 = $(`<div id="html_ef3c00f5ba3f4996b861d1adf8899f31" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_406aa228de774178b94c47c7b1c1f7bc.setContent(html_ef3c00f5ba3f4996b861d1adf8899f31);
+        
+
+        marker_64347d2359eb4e3db4abd6282997965b.bindPopup(popup_406aa228de774178b94c47c7b1c1f7bc)
+        ;
+
+        
+    
+    
+            var marker_be4f9b3662894ac09261b772cfadc9b7 = L.marker(
+                [40.083399299999996, -75.29297070000001],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_0d1bb944df914e1883a76d946236537c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_be4f9b3662894ac09261b772cfadc9b7.setIcon(icon_0d1bb944df914e1883a76d946236537c);
+        
+    
+        var popup_5ca2a37413f244a483ecc59e3251582e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12aeea5affad42c288cbfa164bd19858 = $(`<div id="html_12aeea5affad42c288cbfa164bd19858" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_5ca2a37413f244a483ecc59e3251582e.setContent(html_12aeea5affad42c288cbfa164bd19858);
+        
+
+        marker_be4f9b3662894ac09261b772cfadc9b7.bindPopup(popup_5ca2a37413f244a483ecc59e3251582e)
+        ;
+
+        
+    
+    
+            var marker_f1778c8f075c42c6b082271c1851fe83 = L.marker(
+                [40.0813544, -75.29889449999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_5244bbeffcdb426fa4fc1860e5c7bc8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f1778c8f075c42c6b082271c1851fe83.setIcon(icon_5244bbeffcdb426fa4fc1860e5c7bc8e);
+        
+    
+        var popup_97b17ae751cb4c9ebd78103287b6279a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97058075590d447291b837948f0d3753 = $(`<div id="html_97058075590d447291b837948f0d3753" style="width: 100.0%; height: 100.0%;">CITY =&gt; CONSHOHOCKEN Traffic: ROAD OBSTRUCTION -</div>`)[0];
+            popup_97b17ae751cb4c9ebd78103287b6279a.setContent(html_97058075590d447291b837948f0d3753);
+        
+
+        marker_f1778c8f075c42c6b082271c1851fe83.bindPopup(popup_97b17ae751cb4c9ebd78103287b6279a)
+        ;
+
+        
+    
+    
+            var marker_0cf36b6e623d46459e9295df08367fa6 = L.marker(
+                [40.0864554, -75.15738309999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_2586fb5234d34e11a194f5013d6ff276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0cf36b6e623d46459e9295df08367fa6.setIcon(icon_2586fb5234d34e11a194f5013d6ff276);
+        
+    
+        var popup_dcdf578213c74d7dbdb09475e1c48473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7776b0771064c83a97d7055e7c3c51d = $(`<div id="html_f7776b0771064c83a97d7055e7c3c51d" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_dcdf578213c74d7dbdb09475e1c48473.setContent(html_f7776b0771064c83a97d7055e7c3c51d);
+        
+
+        marker_0cf36b6e623d46459e9295df08367fa6.bindPopup(popup_dcdf578213c74d7dbdb09475e1c48473)
+        ;
+
+        
+    
+    
+            var marker_4087f2389adf49fbb0b63c62a2f35c15 = L.marker(
+                [40.122474100000005, -75.35864609999999],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_8eda584ff69741bf867314c2cc5b2c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4087f2389adf49fbb0b63c62a2f35c15.setIcon(icon_8eda584ff69741bf867314c2cc5b2c91);
+        
+    
+        var popup_15078a6fadee4ec6ad4339c9551ad184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cd6339b940b441cbbfc6fe1e18a6f1a = $(`<div id="html_8cd6339b940b441cbbfc6fe1e18a6f1a" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_15078a6fadee4ec6ad4339c9551ad184.setContent(html_8cd6339b940b441cbbfc6fe1e18a6f1a);
+        
+
+        marker_4087f2389adf49fbb0b63c62a2f35c15.bindPopup(popup_15078a6fadee4ec6ad4339c9551ad184)
+        ;
+
+        
+    
+    
+            var marker_197e1345fe044012944769802bae54a7 = L.marker(
+                [40.1087245, -75.1927332],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_3ebcb1f688c847d0b568ec35fba0f501 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_197e1345fe044012944769802bae54a7.setIcon(icon_3ebcb1f688c847d0b568ec35fba0f501);
+        
+    
+        var popup_4894eba61d374c108c0b36b3515bee8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5727b840b974b52ba7cca0b7cbfa176 = $(`<div id="html_c5727b840b974b52ba7cca0b7cbfa176" style="width: 100.0%; height: 100.0%;">CITY =&gt; SPRINGFIELD Traffic: DISABLED VEHICLE -</div>`)[0];
+            popup_4894eba61d374c108c0b36b3515bee8d.setContent(html_c5727b840b974b52ba7cca0b7cbfa176);
+        
+
+        marker_197e1345fe044012944769802bae54a7.bindPopup(popup_4894eba61d374c108c0b36b3515bee8d)
+        ;
+
+        
+    
+    
+            var marker_9c8516c6c5624861b40e7a631b9f12a4 = L.marker(
+                [40.061921500000004, -75.1176549],
+                {}
+            ).addTo(map_f9c1ac48c75c4c3cab554f2bb448eeee);
+        
+    
+            var icon_f5304c65d6a84e7193bcb9e917472623 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c8516c6c5624861b40e7a631b9f12a4.setIcon(icon_f5304c65d6a84e7193bcb9e917472623);
+        
+    
+        var popup_49758468651b45c3bdb616762106391f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6a7b1d41e684b0cbeb16e48cc34591b = $(`<div id="html_d6a7b1d41e684b0cbeb16e48cc34591b" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Traffic: VEHICLE ACCIDENT -</div>`)[0];
+            popup_49758468651b45c3bdb616762106391f.setContent(html_d6a7b1d41e684b0cbeb16e48cc34591b);
+        
+
+        marker_9c8516c6c5624861b40e7a631b9f12a4.bindPopup(popup_49758468651b45c3bdb616762106391f)
+        ;
+
+        
+    
+</script>

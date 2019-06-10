@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e9682a5e988489180cae8a886aa7351 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6e9682a5e988489180cae8a886aa7351" ></div>
+        
+</body>
+<script>    
+    
+            var map_6e9682a5e988489180cae8a886aa7351 = L.map(
+                "map_6e9682a5e988489180cae8a886aa7351",
+                {
+                    center: [40.156522379796705, -75.3181425089477],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2417643b7cf045d5ad36454bafff1565 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var marker_716a5467cebd4281896d31e03948095a = L.marker(
+                [40.1990064, -75.3000584],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_4b372097e15c4e5e9f18e3dd47870d6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_716a5467cebd4281896d31e03948095a.setIcon(icon_4b372097e15c4e5e9f18e3dd47870d6c);
+        
+    
+        var popup_7ad782a0490542e483d9c5bac33b2cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c7701d12b064620a86c5b38e8cd7ccf = $(`<div id="html_8c7701d12b064620a86c5b38e8cd7ccf" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER GWYNEDD Fire: APPLIANCE FIRE</div>`)[0];
+            popup_7ad782a0490542e483d9c5bac33b2cc3.setContent(html_8c7701d12b064620a86c5b38e8cd7ccf);
+        
+
+        marker_716a5467cebd4281896d31e03948095a.bindPopup(popup_7ad782a0490542e483d9c5bac33b2cc3)
+        ;
+
+        
+    
+    
+            var marker_0bbb49fae5bc4caa819d909e612d71d4 = L.marker(
+                [40.0289031, -75.3518224],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_3173ce0375f84f16b1dd2bad0bb8e600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0bbb49fae5bc4caa819d909e612d71d4.setIcon(icon_3173ce0375f84f16b1dd2bad0bb8e600);
+        
+    
+        var popup_82a369e7c6454b6d9060103ada2fb5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a397049e191f4a4dadb3a14b6c54072c = $(`<div id="html_a397049e191f4a4dadb3a14b6c54072c" style="width: 100.0%; height: 100.0%;">CITY =&gt; DELAWARE COUNTY Fire: CARBON MONOXIDE DETECTOR</div>`)[0];
+            popup_82a369e7c6454b6d9060103ada2fb5c8.setContent(html_a397049e191f4a4dadb3a14b6c54072c);
+        
+
+        marker_0bbb49fae5bc4caa819d909e612d71d4.bindPopup(popup_82a369e7c6454b6d9060103ada2fb5c8)
+        ;
+
+        
+    
+    
+            var marker_1054a3d259aa4400b6c14a9cc8f7e2c4 = L.marker(
+                [40.104206299999994, -75.3676652],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_1043b6c7372e4218b050f80890bd0b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1054a3d259aa4400b6c14a9cc8f7e2c4.setIcon(icon_1043b6c7372e4218b050f80890bd0b69);
+        
+    
+        var popup_ba1b28699f1b4356ae52bea4129b9d19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae3d703e119459e8806e3f9c7615e85 = $(`<div id="html_bae3d703e119459e8806e3f9c7615e85" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_ba1b28699f1b4356ae52bea4129b9d19.setContent(html_bae3d703e119459e8806e3f9c7615e85);
+        
+
+        marker_1054a3d259aa4400b6c14a9cc8f7e2c4.bindPopup(popup_ba1b28699f1b4356ae52bea4129b9d19)
+        ;
+
+        
+    
+    
+            var marker_b717c24249884262aa4f7aafa140e912 = L.marker(
+                [40.2249227, -75.5280446],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_815e700f001d4fcaba0cfb093512adb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b717c24249884262aa4f7aafa140e912.setIcon(icon_815e700f001d4fcaba0cfb093512adb6);
+        
+    
+        var popup_76aefdb5c0984a3ca40da04289a2df12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f978acd6c2b42f4a7f04b5935731fe8 = $(`<div id="html_1f978acd6c2b42f4a7f04b5935731fe8" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_76aefdb5c0984a3ca40da04289a2df12.setContent(html_1f978acd6c2b42f4a7f04b5935731fe8);
+        
+
+        marker_b717c24249884262aa4f7aafa140e912.bindPopup(popup_76aefdb5c0984a3ca40da04289a2df12)
+        ;
+
+        
+    
+    
+            var marker_d393ae99a43848a2aa4f68e67f3e3ec2 = L.marker(
+                [40.1653934, -75.2829046],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c395c5f798db4ca4862052f0d58bd885 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d393ae99a43848a2aa4f68e67f3e3ec2.setIcon(icon_c395c5f798db4ca4862052f0d58bd885);
+        
+    
+        var popup_526063e491bd427ca8895aed3bdd5ddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35b66df644474de3ae02c3e5db72cdc1 = $(`<div id="html_35b66df644474de3ae02c3e5db72cdc1" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Fire: FIRE ALARM</div>`)[0];
+            popup_526063e491bd427ca8895aed3bdd5ddd.setContent(html_35b66df644474de3ae02c3e5db72cdc1);
+        
+
+        marker_d393ae99a43848a2aa4f68e67f3e3ec2.bindPopup(popup_526063e491bd427ca8895aed3bdd5ddd)
+        ;
+
+        
+    
+    
+            var marker_21f7bdcc62df4e3da4d16b4ef55bc38d = L.marker(
+                [40.051283399999996, -75.2968515],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_1a95e5a3604a4d75b3bbe070ddd2135b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_21f7bdcc62df4e3da4d16b4ef55bc38d.setIcon(icon_1a95e5a3604a4d75b3bbe070ddd2135b);
+        
+    
+        var popup_efdedd9559d84b87b5299c575041bb95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9d13d9a6bf4654bc448c21925144cd = $(`<div id="html_9f9d13d9a6bf4654bc448c21925144cd" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_efdedd9559d84b87b5299c575041bb95.setContent(html_9f9d13d9a6bf4654bc448c21925144cd);
+        
+
+        marker_21f7bdcc62df4e3da4d16b4ef55bc38d.bindPopup(popup_efdedd9559d84b87b5299c575041bb95)
+        ;
+
+        
+    
+    
+            var marker_a1ad56a5def942a480d51fa80834ec65 = L.marker(
+                [40.0249667, -75.2829046],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_0e51724a358545b689b09e3bd65e8f87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a1ad56a5def942a480d51fa80834ec65.setIcon(icon_0e51724a358545b689b09e3bd65e8f87);
+        
+    
+        var popup_c9830440ef4149b6be9f0738ab9b4197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88b7ddb260124c3c96c3c7c17a293461 = $(`<div id="html_88b7ddb260124c3c96c3c7c17a293461" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_c9830440ef4149b6be9f0738ab9b4197.setContent(html_88b7ddb260124c3c96c3c7c17a293461);
+        
+
+        marker_a1ad56a5def942a480d51fa80834ec65.bindPopup(popup_c9830440ef4149b6be9f0738ab9b4197)
+        ;
+
+        
+    
+    
+            var marker_0dc6ac2fa6224a79b8f1a4d748baeba7 = L.marker(
+                [40.0074347, -75.24898859999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_4db92414b19145d1b8b1871c68def379 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0dc6ac2fa6224a79b8f1a4d748baeba7.setIcon(icon_4db92414b19145d1b8b1871c68def379);
+        
+    
+        var popup_5afcfaa4397946d195bf2e36f5d72165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12bd513cda0d4010bf5fc94ec6a5f256 = $(`<div id="html_12bd513cda0d4010bf5fc94ec6a5f256" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: CARBON MONOXIDE DETECTOR</div>`)[0];
+            popup_5afcfaa4397946d195bf2e36f5d72165.setContent(html_12bd513cda0d4010bf5fc94ec6a5f256);
+        
+
+        marker_0dc6ac2fa6224a79b8f1a4d748baeba7.bindPopup(popup_5afcfaa4397946d195bf2e36f5d72165)
+        ;
+
+        
+    
+    
+            var marker_6f367c022bbc43e4b70591f5616ecbc0 = L.marker(
+                [40.414248799999996, -75.5090155],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_eb073fd0a9f24b6d9fbc422bcdfebb2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6f367c022bbc43e4b70591f5616ecbc0.setIcon(icon_eb073fd0a9f24b6d9fbc422bcdfebb2f);
+        
+    
+        var popup_4c19102ef37b4d2788e1eac644d77e33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_622a4411049b442b99c6243c1a4bde71 = $(`<div id="html_622a4411049b442b99c6243c1a4bde71" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER HANOVER Fire: FIRE ALARM</div>`)[0];
+            popup_4c19102ef37b4d2788e1eac644d77e33.setContent(html_622a4411049b442b99c6243c1a4bde71);
+        
+
+        marker_6f367c022bbc43e4b70591f5616ecbc0.bindPopup(popup_4c19102ef37b4d2788e1eac644d77e33)
+        ;
+
+        
+    
+    
+            var marker_9bd4d124e3804db0aea03f0de7491408 = L.marker(
+                [40.2469315, -75.6439204],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_15f8377f0deb4b108508afd50d892cc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9bd4d124e3804db0aea03f0de7491408.setIcon(icon_15f8377f0deb4b108508afd50d892cc4);
+        
+    
+        var popup_e732706e198b461daa4c9ce17ae045a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4242af4a0154f60a5b8fdc2aa8086c0 = $(`<div id="html_a4242af4a0154f60a5b8fdc2aa8086c0" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Fire: PUMP DETAIL</div>`)[0];
+            popup_e732706e198b461daa4c9ce17ae045a2.setContent(html_a4242af4a0154f60a5b8fdc2aa8086c0);
+        
+
+        marker_9bd4d124e3804db0aea03f0de7491408.bindPopup(popup_e732706e198b461daa4c9ce17ae045a2)
+        ;
+
+        
+    
+    
+            var marker_58833e8546ac40049593b33785948ab8 = L.marker(
+                [40.085487, -75.0977084],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_50801dab87754db5b0244db3ebaac661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_58833e8546ac40049593b33785948ab8.setIcon(icon_50801dab87754db5b0244db3ebaac661);
+        
+    
+        var popup_2bb188a8a5754d86947deec3bc0ec5ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de57c430b1e48bc970bdbf1c456098f = $(`<div id="html_0de57c430b1e48bc970bdbf1c456098f" style="width: 100.0%; height: 100.0%;">CITY =&gt; ROCKLEDGE Fire: FIRE INVESTIGATION</div>`)[0];
+            popup_2bb188a8a5754d86947deec3bc0ec5ef.setContent(html_0de57c430b1e48bc970bdbf1c456098f);
+        
+
+        marker_58833e8546ac40049593b33785948ab8.bindPopup(popup_2bb188a8a5754d86947deec3bc0ec5ef)
+        ;
+
+        
+    
+    
+            var marker_7959cc826a1540228b3703d25eac59ba = L.marker(
+                [40.1825726, -75.5406694],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c05dcd2c1cbe4970996b5529e312fee4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7959cc826a1540228b3703d25eac59ba.setIcon(icon_c05dcd2c1cbe4970996b5529e312fee4);
+        
+    
+        var popup_e2155e0c65ae49fa977bc7558c9ca688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72fc29dcc4744923a68910166cc9c2b8 = $(`<div id="html_72fc29dcc4744923a68910166cc9c2b8" style="width: 100.0%; height: 100.0%;">CITY =&gt; ROYERSFORD Fire: FIRE ALARM</div>`)[0];
+            popup_e2155e0c65ae49fa977bc7558c9ca688.setContent(html_72fc29dcc4744923a68910166cc9c2b8);
+        
+
+        marker_7959cc826a1540228b3703d25eac59ba.bindPopup(popup_e2155e0c65ae49fa977bc7558c9ca688)
+        ;
+
+        
+    
+    
+            var marker_1d3bacd89d3447c283d0f4907cf41967 = L.marker(
+                [40.138898600000005, -75.15145720000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_e2624e9ded3a4bef987e8ccc26f5638b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1d3bacd89d3447c283d0f4907cf41967.setIcon(icon_e2624e9ded3a4bef987e8ccc26f5638b);
+        
+    
+        var popup_8d92821aefe341b1bff79b18210f2053 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b24a453c7adc43578175aa6d3261a6fa = $(`<div id="html_b24a453c7adc43578175aa6d3261a6fa" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER DUBLIN Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_8d92821aefe341b1bff79b18210f2053.setContent(html_b24a453c7adc43578175aa6d3261a6fa);
+        
+
+        marker_1d3bacd89d3447c283d0f4907cf41967.bindPopup(popup_8d92821aefe341b1bff79b18210f2053)
+        ;
+
+        
+    
+    
+            var marker_9420a94758eb46878403d7abfd6462ea = L.marker(
+                [39.9997391, -75.2557489],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_58033d5da2dc4134ac66a6a9dfca0f13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9420a94758eb46878403d7abfd6462ea.setIcon(icon_58033d5da2dc4134ac66a6a9dfca0f13);
+        
+    
+        var popup_2096ce9cd2d647378dee129e9fd825d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bab8315a62964332bb808588d4cc430b = $(`<div id="html_bab8315a62964332bb808588d4cc430b" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_2096ce9cd2d647378dee129e9fd825d3.setContent(html_bab8315a62964332bb808588d4cc430b);
+        
+
+        marker_9420a94758eb46878403d7abfd6462ea.bindPopup(popup_2096ce9cd2d647378dee129e9fd825d3)
+        ;
+
+        
+    
+    
+            var marker_f7989b73942c4ab3bc1be0f0b80db22f = L.marker(
+                [40.082481, -75.324636],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_2ba47769d2ad437db8d63519e94a8197 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f7989b73942c4ab3bc1be0f0b80db22f.setIcon(icon_2ba47769d2ad437db8d63519e94a8197);
+        
+    
+        var popup_20aca49fc2d0488dafc247702c78b701 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3b630690d004be5929b476f1eb88791 = $(`<div id="html_d3b630690d004be5929b476f1eb88791" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_20aca49fc2d0488dafc247702c78b701.setContent(html_d3b630690d004be5929b476f1eb88791);
+        
+
+        marker_f7989b73942c4ab3bc1be0f0b80db22f.bindPopup(popup_20aca49fc2d0488dafc247702c78b701)
+        ;
+
+        
+    
+    
+            var marker_9e892745306e41b58febbf55fd9378c9 = L.marker(
+                [40.04571, -75.298728],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_0d383d65412f4752ae12b9f7f32fde2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9e892745306e41b58febbf55fd9378c9.setIcon(icon_0d383d65412f4752ae12b9f7f32fde2c);
+        
+    
+        var popup_9155b981d1ee469a85fabf865486f237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccecf39ddf2542cdb796e12ce82e853d = $(`<div id="html_ccecf39ddf2542cdb796e12ce82e853d" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_9155b981d1ee469a85fabf865486f237.setContent(html_ccecf39ddf2542cdb796e12ce82e853d);
+        
+
+        marker_9e892745306e41b58febbf55fd9378c9.bindPopup(popup_9155b981d1ee469a85fabf865486f237)
+        ;
+
+        
+    
+    
+            var marker_138ed62f6f324019bf6ad5ade1b20fad = L.marker(
+                [40.290558600000004, -75.28514440000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_6d4cb990aaef408f8fa1968a4e705639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_138ed62f6f324019bf6ad5ade1b20fad.setIcon(icon_6d4cb990aaef408f8fa1968a4e705639);
+        
+    
+        var popup_bea9a056d4a84235b30aed1134435f04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c10e3f363da4e539b2bf84b70d79736 = $(`<div id="html_4c10e3f363da4e539b2bf84b70d79736" style="width: 100.0%; height: 100.0%;">CITY =&gt; HATFIELD TOWNSHIP Fire: FIRE ALARM</div>`)[0];
+            popup_bea9a056d4a84235b30aed1134435f04.setContent(html_4c10e3f363da4e539b2bf84b70d79736);
+        
+
+        marker_138ed62f6f324019bf6ad5ade1b20fad.bindPopup(popup_bea9a056d4a84235b30aed1134435f04)
+        ;
+
+        
+    
+    
+            var marker_3a0ec6579f5c444dbcac00248f0a35e0 = L.marker(
+                [40.1466487, -75.2192771],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_da08e4953d904b92bd20e4e531ab65f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3a0ec6579f5c444dbcac00248f0a35e0.setIcon(icon_da08e4953d904b92bd20e4e531ab65f5);
+        
+    
+        var popup_4450fa037e544338a1dd504d6898fc3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5634cbdc7d44a79b458a246146b4358 = $(`<div id="html_b5634cbdc7d44a79b458a246146b4358" style="width: 100.0%; height: 100.0%;">CITY =&gt; AMBLER Fire: CARBON MONOXIDE DETECTOR</div>`)[0];
+            popup_4450fa037e544338a1dd504d6898fc3c.setContent(html_b5634cbdc7d44a79b458a246146b4358);
+        
+
+        marker_3a0ec6579f5c444dbcac00248f0a35e0.bindPopup(popup_4450fa037e544338a1dd504d6898fc3c)
+        ;
+
+        
+    
+    
+            var marker_7ad81a7d45da46948acefece04d29065 = L.marker(
+                [40.1355778, -75.27385129999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_e6614b366a964fa68a5221ffe500e4ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7ad81a7d45da46948acefece04d29065.setIcon(icon_e6614b366a964fa68a5221ffe500e4ab);
+        
+    
+        var popup_e11d80186f93497b815c170fe59a1930 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0b5793c93444888a9633fc5fbf90c3a = $(`<div id="html_a0b5793c93444888a9633fc5fbf90c3a" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Fire: FIRE ALARM</div>`)[0];
+            popup_e11d80186f93497b815c170fe59a1930.setContent(html_a0b5793c93444888a9633fc5fbf90c3a);
+        
+
+        marker_7ad81a7d45da46948acefece04d29065.bindPopup(popup_e11d80186f93497b815c170fe59a1930)
+        ;
+
+        
+    
+    
+            var marker_3735b6928eaf4414b23a6f9ee33311b0 = L.marker(
+                [40.4024419, -75.4994835],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c20377fc8f2745ffad696313c86e175e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3735b6928eaf4414b23a6f9ee33311b0.setIcon(icon_c20377fc8f2745ffad696313c86e175e);
+        
+    
+        var popup_d89d7add4f574d31babcbb1b5636fbe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_554295ac4adf4606a1944bfbda1a0ac0 = $(`<div id="html_554295ac4adf4606a1944bfbda1a0ac0" style="width: 100.0%; height: 100.0%;">CITY =&gt; PENNSBURG Fire: TRASH/DUMPSTER FIRE</div>`)[0];
+            popup_d89d7add4f574d31babcbb1b5636fbe7.setContent(html_554295ac4adf4606a1944bfbda1a0ac0);
+        
+
+        marker_3735b6928eaf4414b23a6f9ee33311b0.bindPopup(popup_d89d7add4f574d31babcbb1b5636fbe7)
+        ;
+
+        
+    
+    
+            var marker_effcc23f4d9e43e487a1b2b1358309ea = L.marker(
+                [40.388167700000004, -75.5059427],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_8a1dbce830ee45f8b854c78ac889fbc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_effcc23f4d9e43e487a1b2b1358309ea.setIcon(icon_8a1dbce830ee45f8b854c78ac889fbc7);
+        
+    
+        var popup_c3fbd671969d48ae82592dab3bbcb6ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83d32bb5cff849cb9c70723315e05216 = $(`<div id="html_83d32bb5cff849cb9c70723315e05216" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER HANOVER Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_c3fbd671969d48ae82592dab3bbcb6ba.setContent(html_83d32bb5cff849cb9c70723315e05216);
+        
+
+        marker_effcc23f4d9e43e487a1b2b1358309ea.bindPopup(popup_c3fbd671969d48ae82592dab3bbcb6ba)
+        ;
+
+        
+    
+    
+            var marker_4cfa11e48bec44ec8d20a1780f730b06 = L.marker(
+                [40.1498641, -75.3646526],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d9a19cbed64045e3921a24cb339c2f48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4cfa11e48bec44ec8d20a1780f730b06.setIcon(icon_d9a19cbed64045e3921a24cb339c2f48);
+        
+    
+        var popup_348320d5fe8e4adcb1d893c6aa22387d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25c61b93a96b4ba5bab0e406634c31cb = $(`<div id="html_25c61b93a96b4ba5bab0e406634c31cb" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST NORRITON Fire: FIRE ALARM</div>`)[0];
+            popup_348320d5fe8e4adcb1d893c6aa22387d.setContent(html_25c61b93a96b4ba5bab0e406634c31cb);
+        
+
+        marker_4cfa11e48bec44ec8d20a1780f730b06.bindPopup(popup_348320d5fe8e4adcb1d893c6aa22387d)
+        ;
+
+        
+    
+    
+            var marker_b87b07f96f8b47c68f1c28628336c673 = L.marker(
+                [40.2469315, -75.6439204],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_43712a5a8ea5438bb882ade75fff8c2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b87b07f96f8b47c68f1c28628336c673.setIcon(icon_43712a5a8ea5438bb882ade75fff8c2c);
+        
+    
+        var popup_3b1b8d54dac34bc8b560568a532f8eb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b23cb1d0b5342869c8c9a434b1bb823 = $(`<div id="html_7b23cb1d0b5342869c8c9a434b1bb823" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_3b1b8d54dac34bc8b560568a532f8eb5.setContent(html_7b23cb1d0b5342869c8c9a434b1bb823);
+        
+
+        marker_b87b07f96f8b47c68f1c28628336c673.bindPopup(popup_3b1b8d54dac34bc8b560568a532f8eb5)
+        ;
+
+        
+    
+    
+            var marker_0b871f9ac0e24259a4ad5b84cf6ea1ad = L.marker(
+                [40.2566279, -75.2612699],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c4e7ea3c8a0a4e52a284771a52cfbf71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0b871f9ac0e24259a4ad5b84cf6ea1ad.setIcon(icon_c4e7ea3c8a0a4e52a284771a52cfbf71);
+        
+    
+        var popup_3c0368142d344b288e1847bb7fca22e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28f4eee856ba484a8d6f7079e59812c5 = $(`<div id="html_28f4eee856ba484a8d6f7079e59812c5" style="width: 100.0%; height: 100.0%;">CITY =&gt; HATFIELD TOWNSHIP Fire: UNKNOWN TYPE FIRE</div>`)[0];
+            popup_3c0368142d344b288e1847bb7fca22e9.setContent(html_28f4eee856ba484a8d6f7079e59812c5);
+        
+
+        marker_0b871f9ac0e24259a4ad5b84cf6ea1ad.bindPopup(popup_3c0368142d344b288e1847bb7fca22e9)
+        ;
+
+        
+    
+    
+            var marker_c0430ce77b1b4a2eae990961328a830b = L.marker(
+                [40.344815999999994, -75.36232059999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_937dee0a274c41e7950309f863e7307c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c0430ce77b1b4a2eae990961328a830b.setIcon(icon_937dee0a274c41e7950309f863e7307c);
+        
+    
+        var popup_edd90b36a2494688b5579210beaad196 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63ac31c2cc674fa19018b80868f6f86a = $(`<div id="html_63ac31c2cc674fa19018b80868f6f86a" style="width: 100.0%; height: 100.0%;">CITY =&gt; SALFORD Fire: BUILDING FIRE</div>`)[0];
+            popup_edd90b36a2494688b5579210beaad196.setContent(html_63ac31c2cc674fa19018b80868f6f86a);
+        
+
+        marker_c0430ce77b1b4a2eae990961328a830b.bindPopup(popup_edd90b36a2494688b5579210beaad196)
+        ;
+
+        
+    
+    
+            var marker_c1563dec0d2c43f3ba09ebc5ed7be3b7 = L.marker(
+                [40.0850736, -75.3886248],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ba37ef6745dd44c3800b0864b188b0bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c1563dec0d2c43f3ba09ebc5ed7be3b7.setIcon(icon_ba37ef6745dd44c3800b0864b188b0bb);
+        
+    
+        var popup_802321136029494dbcd82c5d1d2ea910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f771f839552d4f74b20a7c4bbea9e1cf = $(`<div id="html_f771f839552d4f74b20a7c4bbea9e1cf" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Fire: ELECTRICAL FIRE OUTSIDE</div>`)[0];
+            popup_802321136029494dbcd82c5d1d2ea910.setContent(html_f771f839552d4f74b20a7c4bbea9e1cf);
+        
+
+        marker_c1563dec0d2c43f3ba09ebc5ed7be3b7.bindPopup(popup_802321136029494dbcd82c5d1d2ea910)
+        ;
+
+        
+    
+    
+            var marker_3adaab53cb9344a8b136017674ea6322 = L.marker(
+                [40.297967, -75.2960191],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_66aac8bbff9b4f079e835f289fa147fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3adaab53cb9344a8b136017674ea6322.setIcon(icon_66aac8bbff9b4f079e835f289fa147fc);
+        
+    
+        var popup_ec89f417189344c18c992609853b6a20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82310c73a088411e9c9f108873082ab6 = $(`<div id="html_82310c73a088411e9c9f108873082ab6" style="width: 100.0%; height: 100.0%;">CITY =&gt; HATFIELD TOWNSHIP Fire: FIRE ALARM</div>`)[0];
+            popup_ec89f417189344c18c992609853b6a20.setContent(html_82310c73a088411e9c9f108873082ab6);
+        
+
+        marker_3adaab53cb9344a8b136017674ea6322.bindPopup(popup_ec89f417189344c18c992609853b6a20)
+        ;
+
+        
+    
+    
+            var marker_d1b8a4d9f2ce47fe815103d5f993e5ab = L.marker(
+                [40.083657200000005, -75.1647407],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_282f203e1e094ee28f0078a52bb07691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d1b8a4d9f2ce47fe815103d5f993e5ab.setIcon(icon_282f203e1e094ee28f0078a52bb07691);
+        
+    
+        var popup_27e3ffbf5639469ca2b1111cabe446dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510d71eb473c450fafdfd07666522994 = $(`<div id="html_510d71eb473c450fafdfd07666522994" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: DEBRIS/FLUIDS ON HIGHWAY</div>`)[0];
+            popup_27e3ffbf5639469ca2b1111cabe446dd.setContent(html_510d71eb473c450fafdfd07666522994);
+        
+
+        marker_d1b8a4d9f2ce47fe815103d5f993e5ab.bindPopup(popup_27e3ffbf5639469ca2b1111cabe446dd)
+        ;
+
+        
+    
+    
+            var marker_521f9529d3ce44a382962dbaef511686 = L.marker(
+                [40.184797499999995, -75.286879],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_f7e42a3c348d42e89935869629a3873f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_521f9529d3ce44a382962dbaef511686.setIcon(icon_f7e42a3c348d42e89935869629a3873f);
+        
+    
+        var popup_fb458e52468944ecbcce1164db40ba87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1e5acdc7c194fd1a238606e85d23caa = $(`<div id="html_c1e5acdc7c194fd1a238606e85d23caa" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITPAIN Fire: FIRE ALARM</div>`)[0];
+            popup_fb458e52468944ecbcce1164db40ba87.setContent(html_c1e5acdc7c194fd1a238606e85d23caa);
+        
+
+        marker_521f9529d3ce44a382962dbaef511686.bindPopup(popup_fb458e52468944ecbcce1164db40ba87)
+        ;
+
+        
+    
+    
+            var marker_fc0ecb16ec354c51b8de38029edd8a96 = L.marker(
+                [40.092353, -75.138325],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_1fc302e20095419e86b5b234a8d9ec37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fc0ecb16ec354c51b8de38029edd8a96.setIcon(icon_1fc302e20095419e86b5b234a8d9ec37);
+        
+    
+        var popup_a82957f838cc4e54a713be53145e03fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5f9bb82a1d4d7f8e0bfc5da186a33d = $(`<div id="html_df5f9bb82a1d4d7f8e0bfc5da186a33d" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: DEBRIS/FLUIDS ON HIGHWAY</div>`)[0];
+            popup_a82957f838cc4e54a713be53145e03fe.setContent(html_df5f9bb82a1d4d7f8e0bfc5da186a33d);
+        
+
+        marker_fc0ecb16ec354c51b8de38029edd8a96.bindPopup(popup_a82957f838cc4e54a713be53145e03fe)
+        ;
+
+        
+    
+    
+            var marker_616c4cb32f644a0787aa80c28a6c91be = L.marker(
+                [40.286437799999995, -75.2637619],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ac67c5e1e6b44b23ac97a80433479615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_616c4cb32f644a0787aa80c28a6c91be.setIcon(icon_ac67c5e1e6b44b23ac97a80433479615);
+        
+    
+        var popup_7fa20f80577f4c91bf1e7c2a4892fcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7c2b3332bd44709680ae65e3b3736f = $(`<div id="html_8b7c2b3332bd44709680ae65e3b3736f" style="width: 100.0%; height: 100.0%;">CITY =&gt; HATFIELD TOWNSHIP Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_7fa20f80577f4c91bf1e7c2a4892fcc7.setContent(html_8b7c2b3332bd44709680ae65e3b3736f);
+        
+
+        marker_616c4cb32f644a0787aa80c28a6c91be.bindPopup(popup_7fa20f80577f4c91bf1e7c2a4892fcc7)
+        ;
+
+        
+    
+    
+            var marker_4ff3962c93264629b5d618cc464873da = L.marker(
+                [40.1335334, -75.0564601],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d8a97c4ec2cb4d659460eec3e64fdb71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4ff3962c93264629b5d618cc464873da.setIcon(icon_d8a97c4ec2cb4d659460eec3e64fdb71);
+        
+    
+        var popup_ad90c04d3af74f91885464c8d9769102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a97677794454868936514a4f149b7b4 = $(`<div id="html_3a97677794454868936514a4f149b7b4" style="width: 100.0%; height: 100.0%;">CITY =&gt; BRYN ATHYN Fire: FIRE ALARM</div>`)[0];
+            popup_ad90c04d3af74f91885464c8d9769102.setContent(html_3a97677794454868936514a4f149b7b4);
+        
+
+        marker_4ff3962c93264629b5d618cc464873da.bindPopup(popup_ad90c04d3af74f91885464c8d9769102)
+        ;
+
+        
+    
+    
+            var marker_d83e72afc46b4653b733fcbf619c30fb = L.marker(
+                [40.1195768, -75.06223609999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_3a90d8344d9e4e87bdcb3b44b3a2f499 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d83e72afc46b4653b733fcbf619c30fb.setIcon(icon_3a90d8344d9e4e87bdcb3b44b3a2f499);
+        
+    
+        var popup_ebd9bf6b12c64c0ea059ec721d9bdd3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8743060f643f40599c419ee81fd86411 = $(`<div id="html_8743060f643f40599c419ee81fd86411" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MORELAND Fire: FIRE ALARM</div>`)[0];
+            popup_ebd9bf6b12c64c0ea059ec721d9bdd3e.setContent(html_8743060f643f40599c419ee81fd86411);
+        
+
+        marker_d83e72afc46b4653b733fcbf619c30fb.bindPopup(popup_ebd9bf6b12c64c0ea059ec721d9bdd3e)
+        ;
+
+        
+    
+    
+            var marker_522ee60371fc42ab87328a5849926cc4 = L.marker(
+                [40.2456734, -75.2796667],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b1f4dcd87c6c4651b14548f0543d7b7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_522ee60371fc42ab87328a5849926cc4.setIcon(icon_b1f4dcd87c6c4651b14548f0543d7b7c);
+        
+    
+        var popup_62bc136bb9cb447d89626a226bf3681a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1278e95554b34be6a7e63b4c0d3b34bb = $(`<div id="html_1278e95554b34be6a7e63b4c0d3b34bb" style="width: 100.0%; height: 100.0%;">CITY =&gt; LANSDALE Fire: FIRE ALARM</div>`)[0];
+            popup_62bc136bb9cb447d89626a226bf3681a.setContent(html_1278e95554b34be6a7e63b4c0d3b34bb);
+        
+
+        marker_522ee60371fc42ab87328a5849926cc4.bindPopup(popup_62bc136bb9cb447d89626a226bf3681a)
+        ;
+
+        
+    
+    
+            var marker_1ca8df9671454468b6a7153462dea36c = L.marker(
+                [40.1156859, -75.3329667],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_8df1e2041491408ea84a56e1206a3aa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1ca8df9671454468b6a7153462dea36c.setIcon(icon_8df1e2041491408ea84a56e1206a3aa1);
+        
+    
+        var popup_100de064f08f421c8d95970a2b40a27c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c02cb17957452ebf622aad47d0ae0d = $(`<div id="html_84c02cb17957452ebf622aad47d0ae0d" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_100de064f08f421c8d95970a2b40a27c.setContent(html_84c02cb17957452ebf622aad47d0ae0d);
+        
+
+        marker_1ca8df9671454468b6a7153462dea36c.bindPopup(popup_100de064f08f421c8d95970a2b40a27c)
+        ;
+
+        
+    
+    
+            var marker_e8f04f81a5924128befbc38003901dba = L.marker(
+                [40.1385244, -75.50325059999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c623f1623bd145068114140b818242ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e8f04f81a5924128befbc38003901dba.setIcon(icon_c623f1623bd145068114140b818242ce);
+        
+    
+        var popup_03621f90e7334d1f8c02ec5ea5551b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a21e09db7a64e83a9f96462c73d00a7 = $(`<div id="html_4a21e09db7a64e83a9f96462c73d00a7" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_03621f90e7334d1f8c02ec5ea5551b5e.setContent(html_4a21e09db7a64e83a9f96462c73d00a7);
+        
+
+        marker_e8f04f81a5924128befbc38003901dba.bindPopup(popup_03621f90e7334d1f8c02ec5ea5551b5e)
+        ;
+
+        
+    
+    
+            var marker_aea6087a7448417f813ff14dd81e53be = L.marker(
+                [40.0360186, -75.2877431],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_15b9c0ea12b14382961671ca7928ec54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aea6087a7448417f813ff14dd81e53be.setIcon(icon_15b9c0ea12b14382961671ca7928ec54);
+        
+    
+        var popup_a5e9047fa15c4f60b1ebe0b1f0d2d5c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e26985475b4e4d22a42708b865900317 = $(`<div id="html_e26985475b4e4d22a42708b865900317" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE INVESTIGATION</div>`)[0];
+            popup_a5e9047fa15c4f60b1ebe0b1f0d2d5c5.setContent(html_e26985475b4e4d22a42708b865900317);
+        
+
+        marker_aea6087a7448417f813ff14dd81e53be.bindPopup(popup_a5e9047fa15c4f60b1ebe0b1f0d2d5c5)
+        ;
+
+        
+    
+    
+            var marker_6ee8168ee31f432fbf079f0f15873b31 = L.marker(
+                [40.2682855, -75.6248005],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_10085010d8704eafb6b76175289916e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6ee8168ee31f432fbf079f0f15873b31.setIcon(icon_10085010d8704eafb6b76175289916e6);
+        
+    
+        var popup_64d3d7d243a24955ba9cd35e5ae245de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d7c5ff850e848eda2cee7f323ffc58c = $(`<div id="html_4d7c5ff850e848eda2cee7f323ffc58c" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER POTTSGROVE Fire: FIRE ALARM</div>`)[0];
+            popup_64d3d7d243a24955ba9cd35e5ae245de.setContent(html_4d7c5ff850e848eda2cee7f323ffc58c);
+        
+
+        marker_6ee8168ee31f432fbf079f0f15873b31.bindPopup(popup_64d3d7d243a24955ba9cd35e5ae245de)
+        ;
+
+        
+    
+    
+            var marker_3502714b606547b5bc7157062a6b3e8d = L.marker(
+                [40.0249667, -75.2829046],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_01a09be1d65d45fbbeb4cfebf8b03c0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3502714b606547b5bc7157062a6b3e8d.setIcon(icon_01a09be1d65d45fbbeb4cfebf8b03c0a);
+        
+    
+        var popup_f2d3be0ff6c24571b2da771fabf65845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aa1790cbfc94ebe9fd9261c8a7fd578 = $(`<div id="html_4aa1790cbfc94ebe9fd9261c8a7fd578" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_f2d3be0ff6c24571b2da771fabf65845.setContent(html_4aa1790cbfc94ebe9fd9261c8a7fd578);
+        
+
+        marker_3502714b606547b5bc7157062a6b3e8d.bindPopup(popup_f2d3be0ff6c24571b2da771fabf65845)
+        ;
+
+        
+    
+    
+            var marker_fbb7e9eecfeb496592ff3b760545975c = L.marker(
+                [40.1589924, -75.40705129999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c954fc8adad44e1e9b4c8fd2f04d04ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fbb7e9eecfeb496592ff3b760545975c.setIcon(icon_c954fc8adad44e1e9b4c8fd2f04d04ab);
+        
+    
+        var popup_64139ecf7edf4d32b697c471c5ff1ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d2583a819464f77b80466f27632c2aa = $(`<div id="html_7d2583a819464f77b80466f27632c2aa" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER PROVIDENCE Fire: FIRE ALARM</div>`)[0];
+            popup_64139ecf7edf4d32b697c471c5ff1ac5.setContent(html_7d2583a819464f77b80466f27632c2aa);
+        
+
+        marker_fbb7e9eecfeb496592ff3b760545975c.bindPopup(popup_64139ecf7edf4d32b697c471c5ff1ac5)
+        ;
+
+        
+    
+    
+            var marker_2b893d84fc7f4bb78123c44117c08f41 = L.marker(
+                [40.1355514, -75.2150436],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_c47ee0ec42b3494c9fad0be2ef80af6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2b893d84fc7f4bb78123c44117c08f41.setIcon(icon_c47ee0ec42b3494c9fad0be2ef80af6e);
+        
+    
+        var popup_cefb8f1578544644b1cc1d0d51cdf59b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72aa06d80a384917a9ac6fca7fda060b = $(`<div id="html_72aa06d80a384917a9ac6fca7fda060b" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Fire: FIRE ALARM</div>`)[0];
+            popup_cefb8f1578544644b1cc1d0d51cdf59b.setContent(html_72aa06d80a384917a9ac6fca7fda060b);
+        
+
+        marker_2b893d84fc7f4bb78123c44117c08f41.bindPopup(popup_cefb8f1578544644b1cc1d0d51cdf59b)
+        ;
+
+        
+    
+    
+            var marker_f51c7ba678cb4b33804d2976404b6006 = L.marker(
+                [40.1338404, -75.3316975],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d1b2564c98484b8e980ea20303c0f149 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f51c7ba678cb4b33804d2976404b6006.setIcon(icon_d1b2564c98484b8e980ea20303c0f149);
+        
+    
+        var popup_77ef35b7846446b494a10fb13ae828a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1a021af9a0644d398693d7e8f3e0d05 = $(`<div id="html_c1a021af9a0644d398693d7e8f3e0d05" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Fire: ELECTRICAL FIRE OUTSIDE</div>`)[0];
+            popup_77ef35b7846446b494a10fb13ae828a6.setContent(html_c1a021af9a0644d398693d7e8f3e0d05);
+        
+
+        marker_f51c7ba678cb4b33804d2976404b6006.bindPopup(popup_77ef35b7846446b494a10fb13ae828a6)
+        ;
+
+        
+    
+    
+            var marker_8e72ec31ad9b42928e7dfe7b89631e4d = L.marker(
+                [40.131869, -75.328861],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_e02e4fc42c8a40c9ad4d1ed837e97d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8e72ec31ad9b42928e7dfe7b89631e4d.setIcon(icon_e02e4fc42c8a40c9ad4d1ed837e97d23);
+        
+    
+        var popup_21a287ac55594eca8b18ed80a95af5b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44c4389ceeff4dc294dcd28d127f9ed5 = $(`<div id="html_44c4389ceeff4dc294dcd28d127f9ed5" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Fire: ELECTRICAL FIRE OUTSIDE</div>`)[0];
+            popup_21a287ac55594eca8b18ed80a95af5b7.setContent(html_44c4389ceeff4dc294dcd28d127f9ed5);
+        
+
+        marker_8e72ec31ad9b42928e7dfe7b89631e4d.bindPopup(popup_21a287ac55594eca8b18ed80a95af5b7)
+        ;
+
+        
+    
+    
+            var marker_46db8b931ab34bc388b08374a98dde32 = L.marker(
+                [40.1017766, -75.25378],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_4d845001e0a04adfb90b194efe9682fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_46db8b931ab34bc388b08374a98dde32.setIcon(icon_4d845001e0a04adfb90b194efe9682fe);
+        
+    
+        var popup_b48c3946cc6044ed84b29317f6cc9a22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb91caff6844ac992353b35b0975b5c = $(`<div id="html_bbb91caff6844ac992353b35b0975b5c" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_b48c3946cc6044ed84b29317f6cc9a22.setContent(html_bbb91caff6844ac992353b35b0975b5c);
+        
+
+        marker_46db8b931ab34bc388b08374a98dde32.bindPopup(popup_b48c3946cc6044ed84b29317f6cc9a22)
+        ;
+
+        
+    
+    
+            var marker_7061aae1231d44d59e92a625cc4e93b9 = L.marker(
+                [40.1198332, -75.1253492],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_e519a2d40c0e4509bd5750e15cdba397 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7061aae1231d44d59e92a625cc4e93b9.setIcon(icon_e519a2d40c0e4509bd5750e15cdba397);
+        
+    
+        var popup_dd95a10de60e4e30bb9a69e15b3c5948 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b409bf343c34c8193555648113e54a3 = $(`<div id="html_3b409bf343c34c8193555648113e54a3" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Fire: FIRE ALARM</div>`)[0];
+            popup_dd95a10de60e4e30bb9a69e15b3c5948.setContent(html_3b409bf343c34c8193555648113e54a3);
+        
+
+        marker_7061aae1231d44d59e92a625cc4e93b9.bindPopup(popup_dd95a10de60e4e30bb9a69e15b3c5948)
+        ;
+
+        
+    
+    
+            var marker_315d0fa6f1a2469c945c52fb459374a3 = L.marker(
+                [40.1003438, -75.2939548],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_de3e9da59e3a4fdf918bdb6913a98626 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_315d0fa6f1a2469c945c52fb459374a3.setIcon(icon_de3e9da59e3a4fdf918bdb6913a98626);
+        
+    
+        var popup_48f21d207c3e48a69aeaf0b592c52080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_386364c2b5c44ea2ba29e572a3525861 = $(`<div id="html_386364c2b5c44ea2ba29e572a3525861" style="width: 100.0%; height: 100.0%;">CITY =&gt; PLYMOUTH Fire: FIRE ALARM</div>`)[0];
+            popup_48f21d207c3e48a69aeaf0b592c52080.setContent(html_386364c2b5c44ea2ba29e572a3525861);
+        
+
+        marker_315d0fa6f1a2469c945c52fb459374a3.bindPopup(popup_48f21d207c3e48a69aeaf0b592c52080)
+        ;
+
+        
+    
+    
+            var marker_b4446ff42f3540ce9537b3ff0610a03a = L.marker(
+                [40.1302626, -75.3528617],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b74ca1511f5047c9a345015d38c29506 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b4446ff42f3540ce9537b3ff0610a03a.setIcon(icon_b74ca1511f5047c9a345015d38c29506);
+        
+    
+        var popup_7207e7ed95e44b94bbb7004e0fe990fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_638ad90d518a4237bcc0c1955270c1e1 = $(`<div id="html_638ad90d518a4237bcc0c1955270c1e1" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Fire: BUILDING FIRE</div>`)[0];
+            popup_7207e7ed95e44b94bbb7004e0fe990fa.setContent(html_638ad90d518a4237bcc0c1955270c1e1);
+        
+
+        marker_b4446ff42f3540ce9537b3ff0610a03a.bindPopup(popup_7207e7ed95e44b94bbb7004e0fe990fa)
+        ;
+
+        
+    
+    
+            var marker_00ec6edc193a42f8b904b343f23f786f = L.marker(
+                [40.1198332, -75.1253492],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_cf4fdc29d187488e96f4dfa1f68116e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_00ec6edc193a42f8b904b343f23f786f.setIcon(icon_cf4fdc29d187488e96f4dfa1f68116e7);
+        
+    
+        var popup_3591490d247444b2aea02d77f7b67a9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9f4003e1b854f4e8896c7bf72363db9 = $(`<div id="html_f9f4003e1b854f4e8896c7bf72363db9" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Fire: FIRE ALARM</div>`)[0];
+            popup_3591490d247444b2aea02d77f7b67a9b.setContent(html_f9f4003e1b854f4e8896c7bf72363db9);
+        
+
+        marker_00ec6edc193a42f8b904b343f23f786f.bindPopup(popup_3591490d247444b2aea02d77f7b67a9b)
+        ;
+
+        
+    
+    
+            var marker_c20f00ec19d845b3a027522c0d9733ab = L.marker(
+                [40.1130531, -75.1687842],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d53b6ce035c641e6b3c67ad000de7eb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c20f00ec19d845b3a027522c0d9733ab.setIcon(icon_d53b6ce035c641e6b3c67ad000de7eb6);
+        
+    
+        var popup_ec3e8dd56e7a4e9b8de627683693da7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83644902f9cd495aaabc0154d2962962 = $(`<div id="html_83644902f9cd495aaabc0154d2962962" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Fire: FIRE ALARM</div>`)[0];
+            popup_ec3e8dd56e7a4e9b8de627683693da7c.setContent(html_83644902f9cd495aaabc0154d2962962);
+        
+
+        marker_c20f00ec19d845b3a027522c0d9733ab.bindPopup(popup_ec3e8dd56e7a4e9b8de627683693da7c)
+        ;
+
+        
+    
+    
+            var marker_c8dc400ca3f242079047bd067ddc679a = L.marker(
+                [40.075421, -75.28826],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_0f8b874177dc42c7aaebf3eb03430ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c8dc400ca3f242079047bd067ddc679a.setIcon(icon_0f8b874177dc42c7aaebf3eb03430ec6);
+        
+    
+        var popup_9d8a5c46a9f74293a3d879d3b1d8c7c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01216f5eaf8d4acdb70b4a8cbc7ea161 = $(`<div id="html_01216f5eaf8d4acdb70b4a8cbc7ea161" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Fire: FIRE ALARM</div>`)[0];
+            popup_9d8a5c46a9f74293a3d879d3b1d8c7c7.setContent(html_01216f5eaf8d4acdb70b4a8cbc7ea161);
+        
+
+        marker_c8dc400ca3f242079047bd067ddc679a.bindPopup(popup_9d8a5c46a9f74293a3d879d3b1d8c7c7)
+        ;
+
+        
+    
+    
+            var marker_9e314bbc527c462099b1e1b02939b960 = L.marker(
+                [40.312017, -75.32529050000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_55822affdcf1443591b40c3d330e32cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9e314bbc527c462099b1e1b02939b960.setIcon(icon_55822affdcf1443591b40c3d330e32cb);
+        
+    
+        var popup_f9f08a823ba34a33acdd887ad40e0909 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_601e3827338641b794536157d6dc8b37 = $(`<div id="html_601e3827338641b794536157d6dc8b37" style="width: 100.0%; height: 100.0%;">CITY =&gt; SOUDERTON Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_f9f08a823ba34a33acdd887ad40e0909.setContent(html_601e3827338641b794536157d6dc8b37);
+        
+
+        marker_9e314bbc527c462099b1e1b02939b960.bindPopup(popup_f9f08a823ba34a33acdd887ad40e0909)
+        ;
+
+        
+    
+    
+            var marker_d07dc3b02a6b4872a9501026e8d0a592 = L.marker(
+                [40.102530200000004, -75.21291550000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_662f0b73d4dc4e16afb391d8ae1b0495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d07dc3b02a6b4872a9501026e8d0a592.setIcon(icon_662f0b73d4dc4e16afb391d8ae1b0495);
+        
+    
+        var popup_03faf3f899094a129d607b13c5735650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47abf3d1bf454c58bf2fe07505ba7c05 = $(`<div id="html_47abf3d1bf454c58bf2fe07505ba7c05" style="width: 100.0%; height: 100.0%;">CITY =&gt; SPRINGFIELD Fire: FIRE ALARM</div>`)[0];
+            popup_03faf3f899094a129d607b13c5735650.setContent(html_47abf3d1bf454c58bf2fe07505ba7c05);
+        
+
+        marker_d07dc3b02a6b4872a9501026e8d0a592.bindPopup(popup_03faf3f899094a129d607b13c5735650)
+        ;
+
+        
+    
+    
+            var marker_25c3df450f2d48409de44a04a3893236 = L.marker(
+                [40.130215, -75.3824469],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_3e8b52037fc242aa9252d31dcad97bb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_25c3df450f2d48409de44a04a3893236.setIcon(icon_3e8b52037fc242aa9252d31dcad97bb9);
+        
+    
+        var popup_33d35365dd234a969697f764b2a61898 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7328007810dd44b9b60b88f58f61ed80 = $(`<div id="html_7328007810dd44b9b60b88f58f61ed80" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST NORRITON Fire: FIRE ALARM</div>`)[0];
+            popup_33d35365dd234a969697f764b2a61898.setContent(html_7328007810dd44b9b60b88f58f61ed80);
+        
+
+        marker_25c3df450f2d48409de44a04a3893236.bindPopup(popup_33d35365dd234a969697f764b2a61898)
+        ;
+
+        
+    
+    
+            var marker_e76961e2b9fa44f491c1c98a50ed8f07 = L.marker(
+                [40.304790000000004, -75.3638279],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_9c228253ebe44ca6ba35794c63886887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e76961e2b9fa44f491c1c98a50ed8f07.setIcon(icon_9c228253ebe44ca6ba35794c63886887);
+        
+    
+        var popup_ba948e89c7b5432d989beb79479e935d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1988c7f387684ce593a757fad4ee61b8 = $(`<div id="html_1988c7f387684ce593a757fad4ee61b8" style="width: 100.0%; height: 100.0%;">CITY =&gt; SOUDERTON Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_ba948e89c7b5432d989beb79479e935d.setContent(html_1988c7f387684ce593a757fad4ee61b8);
+        
+
+        marker_e76961e2b9fa44f491c1c98a50ed8f07.bindPopup(popup_ba948e89c7b5432d989beb79479e935d)
+        ;
+
+        
+    
+    
+            var marker_962aa42f83aa41279b3098f12efa6f13 = L.marker(
+                [40.1793752, -75.2362381],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_a022b27e6a9c4b1886a9a6c7eef125d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_962aa42f83aa41279b3098f12efa6f13.setIcon(icon_a022b27e6a9c4b1886a9a6c7eef125d8);
+        
+    
+        var popup_bcce4fdfaada446c9ebfb0e7bd23833a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17fdedd2dd62462886e7eafe596e2714 = $(`<div id="html_17fdedd2dd62462886e7eafe596e2714" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER GWYNEDD Fire: BURN VICTIM</div>`)[0];
+            popup_bcce4fdfaada446c9ebfb0e7bd23833a.setContent(html_17fdedd2dd62462886e7eafe596e2714);
+        
+
+        marker_962aa42f83aa41279b3098f12efa6f13.bindPopup(popup_bcce4fdfaada446c9ebfb0e7bd23833a)
+        ;
+
+        
+    
+    
+            var marker_b8c90d40d1aa44868bcdc83160ced6ff = L.marker(
+                [40.0811951, -75.1332615],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_9d29a5444e8a425b9f784804e7b32ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b8c90d40d1aa44868bcdc83160ced6ff.setIcon(icon_9d29a5444e8a425b9f784804e7b32ad5);
+        
+    
+        var popup_30768560f06c4861b790923c21d50887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_572cced6fd8d4f07b370584fc2e751be = $(`<div id="html_572cced6fd8d4f07b370584fc2e751be" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_30768560f06c4861b790923c21d50887.setContent(html_572cced6fd8d4f07b370584fc2e751be);
+        
+
+        marker_b8c90d40d1aa44868bcdc83160ced6ff.bindPopup(popup_30768560f06c4861b790923c21d50887)
+        ;
+
+        
+    
+    
+            var marker_fe21aa758a5a408095ea6ea72c15bc7d = L.marker(
+                [40.1320369, -75.37730479999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b0e0bd1310f54a02aa8adbad96327f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fe21aa758a5a408095ea6ea72c15bc7d.setIcon(icon_b0e0bd1310f54a02aa8adbad96327f93);
+        
+    
+        var popup_4d4dd4c3c0514216ac3ee80b92b980c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a405ea067d3544688e7663ecb2525364 = $(`<div id="html_a405ea067d3544688e7663ecb2525364" style="width: 100.0%; height: 100.0%;">CITY =&gt; WEST NORRITON Fire: FIRE INVESTIGATION</div>`)[0];
+            popup_4d4dd4c3c0514216ac3ee80b92b980c4.setContent(html_a405ea067d3544688e7663ecb2525364);
+        
+
+        marker_fe21aa758a5a408095ea6ea72c15bc7d.bindPopup(popup_4d4dd4c3c0514216ac3ee80b92b980c4)
+        ;
+
+        
+    
+    
+            var marker_ed7be90b9f77446b84bb29ee2d42429d = L.marker(
+                [40.21618970000001, -75.2387945],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ab2c1a3fd08f49de9b9991477e7ba825 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ed7be90b9f77446b84bb29ee2d42429d.setIcon(icon_ab2c1a3fd08f49de9b9991477e7ba825);
+        
+    
+        var popup_167c6caac52a42eda4d24154d053ffc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c60396dcc86c4007be13d774fb093417 = $(`<div id="html_c60396dcc86c4007be13d774fb093417" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Fire: RESCUE - GENERAL</div>`)[0];
+            popup_167c6caac52a42eda4d24154d053ffc8.setContent(html_c60396dcc86c4007be13d774fb093417);
+        
+
+        marker_ed7be90b9f77446b84bb29ee2d42429d.bindPopup(popup_167c6caac52a42eda4d24154d053ffc8)
+        ;
+
+        
+    
+    
+            var marker_3e6e7175b13b4dfeb70d184b7abe39a7 = L.marker(
+                [40.339439299999995, -75.45560019999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b2f1421af56b4ca186e7f355a1cf59ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3e6e7175b13b4dfeb70d184b7abe39a7.setIcon(icon_b2f1421af56b4ca186e7f355a1cf59ce);
+        
+    
+        var popup_ecde3eff34ec4ba99571398d5b7de04e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5099dad56d2745b3bac164667165c134 = $(`<div id="html_5099dad56d2745b3bac164667165c134" style="width: 100.0%; height: 100.0%;">CITY =&gt; MARLBOROUGH Fire: WOODS/FIELD FIRE</div>`)[0];
+            popup_ecde3eff34ec4ba99571398d5b7de04e.setContent(html_5099dad56d2745b3bac164667165c134);
+        
+
+        marker_3e6e7175b13b4dfeb70d184b7abe39a7.bindPopup(popup_ecde3eff34ec4ba99571398d5b7de04e)
+        ;
+
+        
+    
+    
+            var marker_5ee54a9a719d41f5b21ca8cb93693141 = L.marker(
+                [40.022209600000004, -75.2768064],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_afeb9c28274e4e0ca2093ebc931fc1c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5ee54a9a719d41f5b21ca8cb93693141.setIcon(icon_afeb9c28274e4e0ca2093ebc931fc1c0);
+        
+    
+        var popup_13f57104bd6d465ab05aee7e88389c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5682511ebf9444ab95c38d85e6ad67ca = $(`<div id="html_5682511ebf9444ab95c38d85e6ad67ca" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_13f57104bd6d465ab05aee7e88389c2c.setContent(html_5682511ebf9444ab95c38d85e6ad67ca);
+        
+
+        marker_5ee54a9a719d41f5b21ca8cb93693141.bindPopup(popup_13f57104bd6d465ab05aee7e88389c2c)
+        ;
+
+        
+    
+    
+            var marker_477ceaa363674bcba271eca57bc9e979 = L.marker(
+                [40.250591899999996, -75.67443809999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_830f347d140a41e79847e2fefd6b21e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_477ceaa363674bcba271eca57bc9e979.setIcon(icon_830f347d140a41e79847e2fefd6b21e4);
+        
+    
+        var popup_aada41b9b2ba485f82f669dd3b369057 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abbf3d4b415b40488296c15b35db2364 = $(`<div id="html_abbf3d4b415b40488296c15b35db2364" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Fire: WOODS/FIELD FIRE</div>`)[0];
+            popup_aada41b9b2ba485f82f669dd3b369057.setContent(html_abbf3d4b415b40488296c15b35db2364);
+        
+
+        marker_477ceaa363674bcba271eca57bc9e979.bindPopup(popup_aada41b9b2ba485f82f669dd3b369057)
+        ;
+
+        
+    
+    
+            var marker_e37eabda5b2643cba74c5efee9cd4d99 = L.marker(
+                [40.3017291, -75.3189571],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_508cfde87a544eb69897d79c64a3966f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e37eabda5b2643cba74c5efee9cd4d99.setIcon(icon_508cfde87a544eb69897d79c64a3966f);
+        
+    
+        var popup_27fd8b39e808400ca6af52c7709f2677 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047e1010c7234a809f6b3b6f64c356f9 = $(`<div id="html_047e1010c7234a809f6b3b6f64c356f9" style="width: 100.0%; height: 100.0%;">CITY =&gt; SOUDERTON Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_27fd8b39e808400ca6af52c7709f2677.setContent(html_047e1010c7234a809f6b3b6f64c356f9);
+        
+
+        marker_e37eabda5b2643cba74c5efee9cd4d99.bindPopup(popup_27fd8b39e808400ca6af52c7709f2677)
+        ;
+
+        
+    
+    
+            var marker_e0380885a85a41cfb3a534e06970393a = L.marker(
+                [40.2212266, -75.2887369],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_2291838752da4be59a9a8062d6d93091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e0380885a85a41cfb3a534e06970393a.setIcon(icon_2291838752da4be59a9a8062d6d93091);
+        
+    
+        var popup_72a92756f4dd4f7c9baac9470a80e784 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f47670dc39c84a6aa246ac2bac052c51 = $(`<div id="html_f47670dc39c84a6aa246ac2bac052c51" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER GWYNEDD Fire: FIRE ALARM</div>`)[0];
+            popup_72a92756f4dd4f7c9baac9470a80e784.setContent(html_f47670dc39c84a6aa246ac2bac052c51);
+        
+
+        marker_e0380885a85a41cfb3a534e06970393a.bindPopup(popup_72a92756f4dd4f7c9baac9470a80e784)
+        ;
+
+        
+    
+    
+            var marker_59482effaa134b03bebd6c9b32b58d04 = L.marker(
+                [40.1734648, -75.3579084],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ff0873d55a8c43828b76a229a04fb70d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_59482effaa134b03bebd6c9b32b58d04.setIcon(icon_ff0873d55a8c43828b76a229a04fb70d);
+        
+    
+        var popup_bf7e1cb0c1eb477d8f58e5f7e74891ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0630dab0e0b4eba83b5e3b73e5154ba = $(`<div id="html_e0630dab0e0b4eba83b5e3b73e5154ba" style="width: 100.0%; height: 100.0%;">CITY =&gt; WORCESTER Fire: FIRE SPECIAL SERVICE</div>`)[0];
+            popup_bf7e1cb0c1eb477d8f58e5f7e74891ae.setContent(html_e0630dab0e0b4eba83b5e3b73e5154ba);
+        
+
+        marker_59482effaa134b03bebd6c9b32b58d04.bindPopup(popup_bf7e1cb0c1eb477d8f58e5f7e74891ae)
+        ;
+
+        
+    
+    
+            var marker_e35b8af2e39143f3b0d657f1d517824f = L.marker(
+                [40.073014, -75.131626],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b734d633db3248ceaa7b8c3a8f954e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e35b8af2e39143f3b0d657f1d517824f.setIcon(icon_b734d633db3248ceaa7b8c3a8f954e2a);
+        
+    
+        var popup_87fd0a4271c14bfa98b4bb0317a351ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fa63513991b40ae9153b15644cc381b = $(`<div id="html_8fa63513991b40ae9153b15644cc381b" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: FIRE ALARM</div>`)[0];
+            popup_87fd0a4271c14bfa98b4bb0317a351ab.setContent(html_8fa63513991b40ae9153b15644cc381b);
+        
+
+        marker_e35b8af2e39143f3b0d657f1d517824f.bindPopup(popup_87fd0a4271c14bfa98b4bb0317a351ab)
+        ;
+
+        
+    
+    
+            var marker_db9d9d53a6ff4fc8925bc4544f7fc203 = L.marker(
+                [40.240781899999995, -75.2239302],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b5ae45d0872e4c49a2d434e42acfda23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_db9d9d53a6ff4fc8925bc4544f7fc203.setIcon(icon_b5ae45d0872e4c49a2d434e42acfda23);
+        
+    
+        var popup_cd25651dbed24be2b2bf296566f3c5ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a6f987269f44aa4a75e7a3ceb02067e = $(`<div id="html_9a6f987269f44aa4a75e7a3ceb02067e" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Fire: BUILDING FIRE</div>`)[0];
+            popup_cd25651dbed24be2b2bf296566f3c5ab.setContent(html_9a6f987269f44aa4a75e7a3ceb02067e);
+        
+
+        marker_db9d9d53a6ff4fc8925bc4544f7fc203.bindPopup(popup_cd25651dbed24be2b2bf296566f3c5ab)
+        ;
+
+        
+    
+    
+            var marker_d53e0f4eb7724b30a244210aa43f0768 = L.marker(
+                [40.200691, -75.216032],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_47275d672e404e7fb513a18d2a5a6c97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d53e0f4eb7724b30a244210aa43f0768.setIcon(icon_47275d672e404e7fb513a18d2a5a6c97);
+        
+    
+        var popup_b0d0704174074eb6a5ed906981597108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a0c2a29fdfd44cea11193d0d3371226 = $(`<div id="html_9a0c2a29fdfd44cea11193d0d3371226" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER GWYNEDD Fire: VEHICLE FIRE</div>`)[0];
+            popup_b0d0704174074eb6a5ed906981597108.setContent(html_9a0c2a29fdfd44cea11193d0d3371226);
+        
+
+        marker_d53e0f4eb7724b30a244210aa43f0768.bindPopup(popup_b0d0704174074eb6a5ed906981597108)
+        ;
+
+        
+    
+    
+            var marker_51e0f0718c4e42d784f0491f91529872 = L.marker(
+                [40.2281549, -75.53300759999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_eac5bbb4452c4284aadb3da6e772a403 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_51e0f0718c4e42d784f0491f91529872.setIcon(icon_eac5bbb4452c4284aadb3da6e772a403);
+        
+    
+        var popup_c4a6c49db7744b269c978a26088b1c9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5756cba226e4e99a162a7cc95ac7161 = $(`<div id="html_e5756cba226e4e99a162a7cc95ac7161" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Fire: FIRE ALARM</div>`)[0];
+            popup_c4a6c49db7744b269c978a26088b1c9e.setContent(html_e5756cba226e4e99a162a7cc95ac7161);
+        
+
+        marker_51e0f0718c4e42d784f0491f91529872.bindPopup(popup_c4a6c49db7744b269c978a26088b1c9e)
+        ;
+
+        
+    
+    
+            var marker_82f19e6ffce4479f83b0c0d2ccec33e9 = L.marker(
+                [40.2491471, -75.67216459999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_295b796ea52f4cd7b3379614a2cc7848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_82f19e6ffce4479f83b0c0d2ccec33e9.setIcon(icon_295b796ea52f4cd7b3379614a2cc7848);
+        
+    
+        var popup_f67937a92c49468994f87506d9d2d342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e09bb9ab9a142fa9f284f74104dbf23 = $(`<div id="html_0e09bb9ab9a142fa9f284f74104dbf23" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Fire: UNKNOWN TYPE FIRE</div>`)[0];
+            popup_f67937a92c49468994f87506d9d2d342.setContent(html_0e09bb9ab9a142fa9f284f74104dbf23);
+        
+
+        marker_82f19e6ffce4479f83b0c0d2ccec33e9.bindPopup(popup_f67937a92c49468994f87506d9d2d342)
+        ;
+
+        
+    
+    
+            var marker_1d787ffe81b3487f9c501588fa190804 = L.marker(
+                [40.0945329, -75.18150490000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_fbc5806f9f8643f98dca8819937fc635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1d787ffe81b3487f9c501588fa190804.setIcon(icon_fbc5806f9f8643f98dca8819937fc635);
+        
+    
+        var popup_854101f21993475fb8730154ea8ccfa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c97035866a504e66a21f9032476952bb = $(`<div id="html_c97035866a504e66a21f9032476952bb" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: FIRE ALARM</div>`)[0];
+            popup_854101f21993475fb8730154ea8ccfa1.setContent(html_c97035866a504e66a21f9032476952bb);
+        
+
+        marker_1d787ffe81b3487f9c501588fa190804.bindPopup(popup_854101f21993475fb8730154ea8ccfa1)
+        ;
+
+        
+    
+    
+            var marker_aa496690188844488d50a7ea64e643cb = L.marker(
+                [40.0809133, -75.20266509999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_291471f501d74630aeaa2f74881a4185 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa496690188844488d50a7ea64e643cb.setIcon(icon_291471f501d74630aeaa2f74881a4185);
+        
+    
+        var popup_4631584a1314468c88166fd1a57cdf38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4482ee0d98304b9b91dd3503049391b4 = $(`<div id="html_4482ee0d98304b9b91dd3503049391b4" style="width: 100.0%; height: 100.0%;">CITY =&gt; SPRINGFIELD Fire: FIRE INVESTIGATION</div>`)[0];
+            popup_4631584a1314468c88166fd1a57cdf38.setContent(html_4482ee0d98304b9b91dd3503049391b4);
+        
+
+        marker_aa496690188844488d50a7ea64e643cb.bindPopup(popup_4631584a1314468c88166fd1a57cdf38)
+        ;
+
+        
+    
+    
+            var marker_3c69029d417b498ca7fb903116e44c27 = L.marker(
+                [40.267043, -75.648887],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ca489ba23f8c478799af566e2c61a0dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3c69029d417b498ca7fb903116e44c27.setIcon(icon_ca489ba23f8c478799af566e2c61a0dd);
+        
+    
+        var popup_e041050d5d594c1d9a40026c4c2cb9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97cacde0aa41435597e306a7adb8a6cd = $(`<div id="html_97cacde0aa41435597e306a7adb8a6cd" style="width: 100.0%; height: 100.0%;">CITY =&gt; POTTSTOWN Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_e041050d5d594c1d9a40026c4c2cb9a1.setContent(html_97cacde0aa41435597e306a7adb8a6cd);
+        
+
+        marker_3c69029d417b498ca7fb903116e44c27.bindPopup(popup_e041050d5d594c1d9a40026c4c2cb9a1)
+        ;
+
+        
+    
+    
+            var marker_9ef3a7075d304e0a9cee1508f36bfb61 = L.marker(
+                [40.2355078, -75.5905277],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_3eb4ec540b0d4df986893e2d16893447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9ef3a7075d304e0a9cee1508f36bfb61.setIcon(icon_3eb4ec540b0d4df986893e2d16893447);
+        
+    
+        var popup_75e3cf16bec5426cb8ad2abf8b74f465 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8528efdb3edd492b9fd686d1a2f60a61 = $(`<div id="html_8528efdb3edd492b9fd686d1a2f60a61" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER POTTSGROVE Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_75e3cf16bec5426cb8ad2abf8b74f465.setContent(html_8528efdb3edd492b9fd686d1a2f60a61);
+        
+
+        marker_9ef3a7075d304e0a9cee1508f36bfb61.bindPopup(popup_75e3cf16bec5426cb8ad2abf8b74f465)
+        ;
+
+        
+    
+    
+            var marker_af5a7e15c58245a0a6562e889d5141a7 = L.marker(
+                [40.0360047, -75.34919709999998],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_10829acfc4a34021a48ab11c7158e8fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_af5a7e15c58245a0a6562e889d5141a7.setIcon(icon_10829acfc4a34021a48ab11c7158e8fa);
+        
+    
+        var popup_ecd6de890b864a8c8927cb05f0432932 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0475ee990641485eab3910884bf98d69 = $(`<div id="html_0475ee990641485eab3910884bf98d69" style="width: 100.0%; height: 100.0%;">CITY =&gt; DELAWARE COUNTY Fire: FIRE ALARM</div>`)[0];
+            popup_ecd6de890b864a8c8927cb05f0432932.setContent(html_0475ee990641485eab3910884bf98d69);
+        
+
+        marker_af5a7e15c58245a0a6562e889d5141a7.bindPopup(popup_ecd6de890b864a8c8927cb05f0432932)
+        ;
+
+        
+    
+    
+            var marker_44774c7cc78543328700755f3f77213a = L.marker(
+                [40.0056436, -75.2219357],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_6a9b0b727db44b058223bf615238bbaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_44774c7cc78543328700755f3f77213a.setIcon(icon_6a9b0b727db44b058223bf615238bbaa);
+        
+    
+        var popup_b5f2b4f38e1941c58d7fd359b6b35223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38be9356a3794b6583d2847b3cfd55c5 = $(`<div id="html_38be9356a3794b6583d2847b3cfd55c5" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: CARBON MONOXIDE DETECTOR</div>`)[0];
+            popup_b5f2b4f38e1941c58d7fd359b6b35223.setContent(html_38be9356a3794b6583d2847b3cfd55c5);
+        
+
+        marker_44774c7cc78543328700755f3f77213a.bindPopup(popup_b5f2b4f38e1941c58d7fd359b6b35223)
+        ;
+
+        
+    
+    
+            var marker_39c46303f82743ec9c98315bfee3c3be = L.marker(
+                [40.2239516, -75.34708520000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_40afbabeaf0546c092995bdb3c0e807f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_39c46303f82743ec9c98315bfee3c3be.setIcon(icon_40afbabeaf0546c092995bdb3c0e807f);
+        
+    
+        var popup_807abd79dd0e4d3a8cb591e0313b2a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f65b2ee5084cee9479f5060aa54c82 = $(`<div id="html_77f65b2ee5084cee9479f5060aa54c82" style="width: 100.0%; height: 100.0%;">CITY =&gt; TOWAMENCIN Fire: S/B AT HELICOPTER LANDING</div>`)[0];
+            popup_807abd79dd0e4d3a8cb591e0313b2a4a.setContent(html_77f65b2ee5084cee9479f5060aa54c82);
+        
+
+        marker_39c46303f82743ec9c98315bfee3c3be.bindPopup(popup_807abd79dd0e4d3a8cb591e0313b2a4a)
+        ;
+
+        
+    
+    
+            var marker_d42a4ece4d4f4ff59cde16105a6b35d0 = L.marker(
+                [40.1330371, -75.40846309999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_2d7823a29b4c414082e4c4c028b710b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d42a4ece4d4f4ff59cde16105a6b35d0.setIcon(icon_2d7823a29b4c414082e4c4c028b710b7);
+        
+    
+        var popup_9d430950b99b45048cb59e1636394233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93c44ff5a4314b7a9761f4ac6262c7ef = $(`<div id="html_93c44ff5a4314b7a9761f4ac6262c7ef" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER PROVIDENCE Fire: FIRE ALARM</div>`)[0];
+            popup_9d430950b99b45048cb59e1636394233.setContent(html_93c44ff5a4314b7a9761f4ac6262c7ef);
+        
+
+        marker_d42a4ece4d4f4ff59cde16105a6b35d0.bindPopup(popup_9d430950b99b45048cb59e1636394233)
+        ;
+
+        
+    
+    
+            var marker_0472129fb5344e16a5ab11f489b6e215 = L.marker(
+                [40.3400721, -75.59170920000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_be47d97f100b47f681c454eeb48b37fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0472129fb5344e16a5ab11f489b6e215.setIcon(icon_be47d97f100b47f681c454eeb48b37fd);
+        
+    
+        var popup_5d277fc219ef4647af39cfbabcfef7ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcbc88a7e3c0416da8a8dbb6abdc1b4e = $(`<div id="html_dcbc88a7e3c0416da8a8dbb6abdc1b4e" style="width: 100.0%; height: 100.0%;">CITY =&gt; DOUGLASS Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_5d277fc219ef4647af39cfbabcfef7ff.setContent(html_dcbc88a7e3c0416da8a8dbb6abdc1b4e);
+        
+
+        marker_0472129fb5344e16a5ab11f489b6e215.bindPopup(popup_5d277fc219ef4647af39cfbabcfef7ff)
+        ;
+
+        
+    
+    
+            var marker_bf23f346ab5c4aa6a0c50b048d3c2a62 = L.marker(
+                [40.2195658, -75.22038979999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_24346aaf78f24d5f95af94476206e3a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bf23f346ab5c4aa6a0c50b048d3c2a62.setIcon(icon_24346aaf78f24d5f95af94476206e3a8);
+        
+    
+        var popup_d1fa437c6b124b5d8b3d9b5e88d74ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0141aef6534a478eb28da065cb1b1395 = $(`<div id="html_0141aef6534a478eb28da065cb1b1395" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Fire: FIRE ALARM</div>`)[0];
+            popup_d1fa437c6b124b5d8b3d9b5e88d74ec8.setContent(html_0141aef6534a478eb28da065cb1b1395);
+        
+
+        marker_bf23f346ab5c4aa6a0c50b048d3c2a62.bindPopup(popup_d1fa437c6b124b5d8b3d9b5e88d74ec8)
+        ;
+
+        
+    
+    
+            var marker_7667f689e9764baea033b8c1361f3527 = L.marker(
+                [40.074695399999996, -75.30546890000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_fc916141087d4ef581b5974903553c40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7667f689e9764baea033b8c1361f3527.setIcon(icon_fc916141087d4ef581b5974903553c40);
+        
+    
+        var popup_89d57be75fee40d287b26428be593168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82b271298ecb44f08e31fa5e31576d63 = $(`<div id="html_82b271298ecb44f08e31fa5e31576d63" style="width: 100.0%; height: 100.0%;">CITY =&gt; CONSHOHOCKEN Fire: FIRE ALARM</div>`)[0];
+            popup_89d57be75fee40d287b26428be593168.setContent(html_82b271298ecb44f08e31fa5e31576d63);
+        
+
+        marker_7667f689e9764baea033b8c1361f3527.bindPopup(popup_89d57be75fee40d287b26428be593168)
+        ;
+
+        
+    
+    
+            var marker_749f7d9efe9f48828f9db759666ecab1 = L.marker(
+                [40.2543376, -75.5730758],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_6267aea355e1451a961a4d4bb0ba7350 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_749f7d9efe9f48828f9db759666ecab1.setIcon(icon_6267aea355e1451a961a4d4bb0ba7350);
+        
+    
+        var popup_4edd83a6d54e439088561b8f69044bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9673f6f27f454f0d928d54d18b737de1 = $(`<div id="html_9673f6f27f454f0d928d54d18b737de1" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER POTTSGROVE Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_4edd83a6d54e439088561b8f69044bb0.setContent(html_9673f6f27f454f0d928d54d18b737de1);
+        
+
+        marker_749f7d9efe9f48828f9db759666ecab1.bindPopup(popup_4edd83a6d54e439088561b8f69044bb0)
+        ;
+
+        
+    
+    
+            var marker_07606c063a0740f7baed1c3b6e302249 = L.marker(
+                [40.107400299999995, -75.113206],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_668dc3adeecc49c9890fee521d3d75ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_07606c063a0740f7baed1c3b6e302249.setIcon(icon_668dc3adeecc49c9890fee521d3d75ec);
+        
+    
+        var popup_ad4c1426ad3846d49854a7173649be1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c696c1b842d46f8b373cc8af42da274 = $(`<div id="html_3c696c1b842d46f8b373cc8af42da274" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Fire: UNKNOWN TYPE FIRE</div>`)[0];
+            popup_ad4c1426ad3846d49854a7173649be1a.setContent(html_3c696c1b842d46f8b373cc8af42da274);
+        
+
+        marker_07606c063a0740f7baed1c3b6e302249.bindPopup(popup_ad4c1426ad3846d49854a7173649be1a)
+        ;
+
+        
+    
+    
+            var marker_2ded5b4721b84cbdbba9287a59a1250c = L.marker(
+                [40.2513703, -75.4657098],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_7b0dafc356f446bd875268eea36f5383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2ded5b4721b84cbdbba9287a59a1250c.setIcon(icon_7b0dafc356f446bd875268eea36f5383);
+        
+    
+        var popup_3c5d1c8e9ae043c3a24caf54d89d02cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd0ca291a8bd4e6e83852b3f4302436e = $(`<div id="html_fd0ca291a8bd4e6e83852b3f4302436e" style="width: 100.0%; height: 100.0%;">CITY =&gt; SCHWENKSVILLE Fire: FIRE ALARM</div>`)[0];
+            popup_3c5d1c8e9ae043c3a24caf54d89d02cb.setContent(html_fd0ca291a8bd4e6e83852b3f4302436e);
+        
+
+        marker_2ded5b4721b84cbdbba9287a59a1250c.bindPopup(popup_3c5d1c8e9ae043c3a24caf54d89d02cb)
+        ;
+
+        
+    
+    
+            var marker_2a21dee8a00e4e8d9c3bfcbb52f67fff = L.marker(
+                [40.114760499999996, -75.3378565],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_7dd0e462cdef43a0847d7d5d99d4caa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2a21dee8a00e4e8d9c3bfcbb52f67fff.setIcon(icon_7dd0e462cdef43a0847d7d5d99d4caa7);
+        
+    
+        var popup_3b8cb5a84f1341dc83cd2a124d737ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81073384e2fd4205a4e0ece0d04f0d6e = $(`<div id="html_81073384e2fd4205a4e0ece0d04f0d6e" style="width: 100.0%; height: 100.0%;">CITY =&gt; NORRISTOWN Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_3b8cb5a84f1341dc83cd2a124d737ee4.setContent(html_81073384e2fd4205a4e0ece0d04f0d6e);
+        
+
+        marker_2a21dee8a00e4e8d9c3bfcbb52f67fff.bindPopup(popup_3b8cb5a84f1341dc83cd2a124d737ee4)
+        ;
+
+        
+    
+    
+            var marker_e2ae26c4e4584095a820eba995d09f02 = L.marker(
+                [40.1933967, -75.15804870000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d0ed0ce6dbd8473e9a78ff4dad28892e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e2ae26c4e4584095a820eba995d09f02.setIcon(icon_d0ed0ce6dbd8473e9a78ff4dad28892e);
+        
+    
+        var popup_f51319f41a844894a71eb7a76b9a3f44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e66a730265a4f60837b3d7ff4099715 = $(`<div id="html_2e66a730265a4f60837b3d7ff4099715" style="width: 100.0%; height: 100.0%;">CITY =&gt; HORSHAM Fire: FIRE ALARM</div>`)[0];
+            popup_f51319f41a844894a71eb7a76b9a3f44.setContent(html_2e66a730265a4f60837b3d7ff4099715);
+        
+
+        marker_e2ae26c4e4584095a820eba995d09f02.bindPopup(popup_f51319f41a844894a71eb7a76b9a3f44)
+        ;
+
+        
+    
+    
+            var marker_e170b057a82046dda4672b44ad0d9360 = L.marker(
+                [40.0896039, -75.14833709999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_869c1633a8824e679e91dce60923cbab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e170b057a82046dda4672b44ad0d9360.setIcon(icon_869c1633a8824e679e91dce60923cbab);
+        
+    
+        var popup_7278e33fb1664a60b302b41567720be1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8359f3004a6b4ef89f5104f45c3a0b75 = $(`<div id="html_8359f3004a6b4ef89f5104f45c3a0b75" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: RESCUE - GENERAL</div>`)[0];
+            popup_7278e33fb1664a60b302b41567720be1.setContent(html_8359f3004a6b4ef89f5104f45c3a0b75);
+        
+
+        marker_e170b057a82046dda4672b44ad0d9360.bindPopup(popup_7278e33fb1664a60b302b41567720be1)
+        ;
+
+        
+    
+    
+            var marker_799ea91a48464054aa055ca6859299d6 = L.marker(
+                [40.252213700000006, -75.2522111],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_64c4fdbd4bde4604bbe5e7edd2604969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_799ea91a48464054aa055ca6859299d6.setIcon(icon_64c4fdbd4bde4604bbe5e7edd2604969);
+        
+    
+        var popup_76b9f567b99e4c21b3182d71f392d6fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d10b2de3ae8f4eea804facb34fefc4c3 = $(`<div id="html_d10b2de3ae8f4eea804facb34fefc4c3" style="width: 100.0%; height: 100.0%;">CITY =&gt; MONTGOMERY Fire: VEHICLE FIRE</div>`)[0];
+            popup_76b9f567b99e4c21b3182d71f392d6fa.setContent(html_d10b2de3ae8f4eea804facb34fefc4c3);
+        
+
+        marker_799ea91a48464054aa055ca6859299d6.bindPopup(popup_76b9f567b99e4c21b3182d71f392d6fa)
+        ;
+
+        
+    
+    
+            var marker_52564d97f4db43b88db914d375ce5f6c = L.marker(
+                [40.168537799999996, -75.4982005],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_b25a43f85ff24742a5c4350a2f1dbcd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_52564d97f4db43b88db914d375ce5f6c.setIcon(icon_b25a43f85ff24742a5c4350a2f1dbcd1);
+        
+    
+        var popup_3efa9c70d238426c89f684e5b867c3a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca5312a9b314ce28846e9a046b3c60a = $(`<div id="html_bca5312a9b314ce28846e9a046b3c60a" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Fire: FIRE ALARM</div>`)[0];
+            popup_3efa9c70d238426c89f684e5b867c3a3.setContent(html_bca5312a9b314ce28846e9a046b3c60a);
+        
+
+        marker_52564d97f4db43b88db914d375ce5f6c.bindPopup(popup_3efa9c70d238426c89f684e5b867c3a3)
+        ;
+
+        
+    
+    
+            var marker_22b7afa890b544bbb96464713cecefbb = L.marker(
+                [40.1585374, -75.2141231],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_e630aa79ac534f7b9af50dbf656e693b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_22b7afa890b544bbb96464713cecefbb.setIcon(icon_e630aa79ac534f7b9af50dbf656e693b);
+        
+    
+        var popup_ba66f6201e104af3bec4a5b580720d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d2bf9106a1c46c2bad5704e02af05ed = $(`<div id="html_6d2bf9106a1c46c2bad5704e02af05ed" style="width: 100.0%; height: 100.0%;">CITY =&gt; AMBLER Fire: FIRE ALARM</div>`)[0];
+            popup_ba66f6201e104af3bec4a5b580720d18.setContent(html_6d2bf9106a1c46c2bad5704e02af05ed);
+        
+
+        marker_22b7afa890b544bbb96464713cecefbb.bindPopup(popup_ba66f6201e104af3bec4a5b580720d18)
+        ;
+
+        
+    
+    
+            var marker_94b3cc2efa1c411f9e3ae0219eee702d = L.marker(
+                [40.174131200000005, -75.0984907],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_dda103880c7b46fa8cb6cd355a430ae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_94b3cc2efa1c411f9e3ae0219eee702d.setIcon(icon_dda103880c7b46fa8cb6cd355a430ae0);
+        
+    
+        var popup_639fe0b00e9d4460af4486d42d15d45b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed70b8ed38a3490cb1a0709d8779e372 = $(`<div id="html_ed70b8ed38a3490cb1a0709d8779e372" style="width: 100.0%; height: 100.0%;">CITY =&gt; HATBORO Fire: FIRE ALARM</div>`)[0];
+            popup_639fe0b00e9d4460af4486d42d15d45b.setContent(html_ed70b8ed38a3490cb1a0709d8779e372);
+        
+
+        marker_94b3cc2efa1c411f9e3ae0219eee702d.bindPopup(popup_639fe0b00e9d4460af4486d42d15d45b)
+        ;
+
+        
+    
+    
+            var marker_3351c1dae100453d87ddd2c3ebfff329 = L.marker(
+                [40.0921365, -75.16203459999998],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_33e62130be1042779b6f3ee82387fa0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3351c1dae100453d87ddd2c3ebfff329.setIcon(icon_33e62130be1042779b6f3ee82387fa0d);
+        
+    
+        var popup_2b6111a10b684c1e9613996eac39f068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc1c356427474247b0bcb7688873e838 = $(`<div id="html_bc1c356427474247b0bcb7688873e838" style="width: 100.0%; height: 100.0%;">CITY =&gt; CHELTENHAM Fire: CARBON MONOXIDE DETECTOR</div>`)[0];
+            popup_2b6111a10b684c1e9613996eac39f068.setContent(html_bc1c356427474247b0bcb7688873e838);
+        
+
+        marker_3351c1dae100453d87ddd2c3ebfff329.bindPopup(popup_2b6111a10b684c1e9613996eac39f068)
+        ;
+
+        
+    
+    
+            var marker_e269c5b3e14d436a949c6b3059c86d05 = L.marker(
+                [40.14392410000001, -75.46955559999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_d1969ac370bf44e98f18fd6222dde067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e269c5b3e14d436a949c6b3059c86d05.setIcon(icon_d1969ac370bf44e98f18fd6222dde067);
+        
+    
+        var popup_556afbbac3684fed889dab75c7e5569b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5def8598c77f46ef91ba91a377dcc0b0 = $(`<div id="html_5def8598c77f46ef91ba91a377dcc0b0" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Fire: FIRE ALARM</div>`)[0];
+            popup_556afbbac3684fed889dab75c7e5569b.setContent(html_5def8598c77f46ef91ba91a377dcc0b0);
+        
+
+        marker_e269c5b3e14d436a949c6b3059c86d05.bindPopup(popup_556afbbac3684fed889dab75c7e5569b)
+        ;
+
+        
+    
+    
+            var marker_7c2a96a39f4e4c71b12e4423fc94cfeb = L.marker(
+                [40.1101919, -75.2599267],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_ac8a6aca64084b639f7a5a9b66a2daae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7c2a96a39f4e4c71b12e4423fc94cfeb.setIcon(icon_ac8a6aca64084b639f7a5a9b66a2daae);
+        
+    
+        var popup_44531367e1024db5bedbc805a94c70b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7876ba1f8c414d488ce5141a0a4491dd = $(`<div id="html_7876ba1f8c414d488ce5141a0a4491dd" style="width: 100.0%; height: 100.0%;">CITY =&gt; WHITEMARSH Fire: FIRE ALARM</div>`)[0];
+            popup_44531367e1024db5bedbc805a94c70b1.setContent(html_7876ba1f8c414d488ce5141a0a4491dd);
+        
+
+        marker_7c2a96a39f4e4c71b12e4423fc94cfeb.bindPopup(popup_44531367e1024db5bedbc805a94c70b1)
+        ;
+
+        
+    
+    
+            var marker_14d4350d763b4e47a40268659be84bcd = L.marker(
+                [40.1176309, -75.11482240000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_1c8a808f81884da2921c303c134d9973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_14d4350d763b4e47a40268659be84bcd.setIcon(icon_1c8a808f81884da2921c303c134d9973);
+        
+    
+        var popup_e51dd77e5d894572a4cfe4ac5ba670be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_050496da87334ebb9455198b2eea64ed = $(`<div id="html_050496da87334ebb9455198b2eea64ed" style="width: 100.0%; height: 100.0%;">CITY =&gt; ABINGTON Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_e51dd77e5d894572a4cfe4ac5ba670be.setContent(html_050496da87334ebb9455198b2eea64ed);
+        
+
+        marker_14d4350d763b4e47a40268659be84bcd.bindPopup(popup_e51dd77e5d894572a4cfe4ac5ba670be)
+        ;
+
+        
+    
+    
+            var marker_18dd59d71761489cb7dcc310b2c90270 = L.marker(
+                [40.0591141, -75.3007868],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_5d5dd710718c4914bf925f7936592eab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_18dd59d71761489cb7dcc310b2c90270.setIcon(icon_5d5dd710718c4914bf925f7936592eab);
+        
+    
+        var popup_27a409c8eeb741a894a914cdf0e3f470 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac2f458b94a74997bd2de9924da1825a = $(`<div id="html_ac2f458b94a74997bd2de9924da1825a" style="width: 100.0%; height: 100.0%;">CITY =&gt; LOWER MERION Fire: FIRE ALARM</div>`)[0];
+            popup_27a409c8eeb741a894a914cdf0e3f470.setContent(html_ac2f458b94a74997bd2de9924da1825a);
+        
+
+        marker_18dd59d71761489cb7dcc310b2c90270.bindPopup(popup_27a409c8eeb741a894a914cdf0e3f470)
+        ;
+
+        
+    
+    
+            var marker_d8358d8b55804c35856191da00cd27c5 = L.marker(
+                [40.08182, -75.4043016],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_71a5b9708a784cc38d7de10270b12508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d8358d8b55804c35856191da00cd27c5.setIcon(icon_71a5b9708a784cc38d7de10270b12508);
+        
+    
+        var popup_811413c54ea34bc2b4cbda573eba29f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b90d6b60bf14bab905dd1388c7e1d25 = $(`<div id="html_6b90d6b60bf14bab905dd1388c7e1d25" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER MERION Fire: GAS-ODOR/LEAK</div>`)[0];
+            popup_811413c54ea34bc2b4cbda573eba29f0.setContent(html_6b90d6b60bf14bab905dd1388c7e1d25);
+        
+
+        marker_d8358d8b55804c35856191da00cd27c5.bindPopup(popup_811413c54ea34bc2b4cbda573eba29f0)
+        ;
+
+        
+    
+    
+            var marker_aa05fd456e9f4412b77d1a210c66f592 = L.marker(
+                [40.182048200000004, -75.4817946],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_da4db15ed45a4c72823572c583457480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa05fd456e9f4412b77d1a210c66f592.setIcon(icon_da4db15ed45a4c72823572c583457480);
+        
+    
+        var popup_18fe4fcf02824781afbe4d42b08211da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7271d54e991d4300a3dd9a2124b20a6b = $(`<div id="html_7271d54e991d4300a3dd9a2124b20a6b" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER PROVIDENCE Fire: RESCUE - ELEVATOR</div>`)[0];
+            popup_18fe4fcf02824781afbe4d42b08211da.setContent(html_7271d54e991d4300a3dd9a2124b20a6b);
+        
+
+        marker_aa05fd456e9f4412b77d1a210c66f592.bindPopup(popup_18fe4fcf02824781afbe4d42b08211da)
+        ;
+
+        
+    
+    
+            var marker_abb8bca183e04afc8e7e95da3c522863 = L.marker(
+                [40.2113626, -75.25994809999999],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_46a603b42ab0480ca1af84d0b174ba41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_abb8bca183e04afc8e7e95da3c522863.setIcon(icon_46a603b42ab0480ca1af84d0b174ba41);
+        
+    
+        var popup_9a52f010f6344f68b927ddfa2a2e963c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c3fc54a13164e0897aa4c54deb91e0c = $(`<div id="html_4c3fc54a13164e0897aa4c54deb91e0c" style="width: 100.0%; height: 100.0%;">CITY =&gt; UPPER GWYNEDD Fire: FIRE ALARM</div>`)[0];
+            popup_9a52f010f6344f68b927ddfa2a2e963c.setContent(html_4c3fc54a13164e0897aa4c54deb91e0c);
+        
+
+        marker_abb8bca183e04afc8e7e95da3c522863.bindPopup(popup_9a52f010f6344f68b927ddfa2a2e963c)
+        ;
+
+        
+    
+    
+            var marker_d542975f41af4f258038495410c1c106 = L.marker(
+                [40.207174200000004, -75.50758420000001],
+                {}
+            ).addTo(map_6e9682a5e988489180cae8a886aa7351);
+        
+    
+            var icon_21ef1eac12954882800b2e966bd3003c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d542975f41af4f258038495410c1c106.setIcon(icon_21ef1eac12954882800b2e966bd3003c);
+        
+    
+        var popup_37bb81ea3c594178bfe3af7d594b546b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_312645643d9e4ec5bfe95df973478ee6 = $(`<div id="html_312645643d9e4ec5bfe95df973478ee6" style="width: 100.0%; height: 100.0%;">CITY =&gt; LIMERICK Fire: VEHICLE ACCIDENT</div>`)[0];
+            popup_37bb81ea3c594178bfe3af7d594b546b.setContent(html_312645643d9e4ec5bfe95df973478ee6);
+        
+
+        marker_d542975f41af4f258038495410c1c106.bindPopup(popup_37bb81ea3c594178bfe3af7d594b546b)
+        ;
+
+        
+    
+</script>
